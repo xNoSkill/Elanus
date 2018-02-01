@@ -56,15 +56,90 @@ Hauptfiguren:
 	</div>
 </li>
 
+<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+}
+</script>
+
+<style>
+/* Popup container - can be anything you want */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 170px;
+    background-color: #8F97FF;
+    color: #fff;
+    text-align: center;
+    border-radius: 0px;
+    padding: 16px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -40px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -53px;
+    border-width: 12px;
+    border-style: solid;
+    border-color: #757ECE transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 2s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {	
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+</style>
+	
 <li>
 	<div class="popup" align="left" onclick="myFunction()">
 		<u>Silvia Helmreich</u>
-			<span class="popuptext" id="myPopupZwei">
-				<b>Silvia Helmreich</b>Ist die zweite Hauptfigur des Buches und spielt somit die zweit
+			<span class="popuptext" id="popupzwei">
+				<b>Silvia Helmreich</b> ist die zweite Hauptfigur des Buches und spielt somit die zweit
 				größte Rolle
 			</span>
 	</div>
 </li>
+
+<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+    var popup = document.getElementById("popupzwei");
+    popup.classList.toggle("show");
+}
+</script>
 
 <a href="https://www.amazon.de/Elanus-Ursula-Poznanski/dp/3785582315/ref=sr_1_1?ie=UTF8&qid=1517322591&sr=8-1&keywords=elanus">
 	<img src="https://www.loewe-verlag.de/_images_media/ckeditor/bilder/8231_3d_024815.png" alt="Elanus" 
@@ -139,19 +214,10 @@ Hauptfiguren:
 }
 
 li {
-	padding: 3px; 
+	padding: 4px; 
 }
 </style>
-</head>
 
-
-<script>
-// When the user clicks on div, open the popup
-function myFunction() {
-    var popup = document.getElementById("popup");
-    popup.classList.toggle("show");
-}
-</script>
 
 <a href="ursula.html">
 <img src="ursula_poznanski.jpg"  usemap="#ursula" alt="Ursula Poznanski" width="320"
