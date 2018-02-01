@@ -57,7 +57,7 @@ Hauptfiguren:
 </li>
 
 <li>
-	<div class="myPopup" align="left" onclick="myFunction()">
+	<div class="popup" align="left" onclick="myFunction()">
 		<u>Silvia Helmreich</u>
 			<span class="popuptext" id="myPopupZwei">
 				<b>Silvia Helmreich</b>Ist die zweite Hauptfigur des Buches und spielt somit die zweit
@@ -148,18 +148,11 @@ li {
 <script>
 // When the user clicks on div, open the popup
 function myFunction() {
-    var popup = document.getElementById("myPopup");
+    var popup = document.getElementById("popup");
     popup.classList.toggle("show");
 }
 </script>
 
-<script>
-// When the user clicks on div, open the popup
-function myFunction() {
-    var popup = document.getElementById("myPopupZwei");
-    popup.classList.toggle("show");
-}
-</script>
 <a href="ursula.html">
 <img src="ursula_poznanski.jpg"  usemap="#ursula" alt="Ursula Poznanski" width="320"
 	height="230" align="right" style="position:absolute; top:45%; left:50%; ">
