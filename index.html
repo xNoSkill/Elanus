@@ -12,12 +12,10 @@
 	usemap="#testmap" style="position:absolute;top:20%;left:100%;" width="170" height="250">
 </a>
 
-<h1 align="center">
-	<font size="72">
-		<u>
+<h1 align="center" style="font-size:300%;color:black">
+	<u>
 			Elanus
-		</u>
-	</font>
+	</u>
 </h1>
 
 
@@ -64,67 +62,9 @@ function myFunction() {
 }
 </script>
 
-<style>
-/* Popup container - can be anything you want */
-.popup {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-/* The actual popup */
-.popup .popuptext {
-    visibility: hidden;
-    width: 170px;
-    background-color: #8F97FF;
-    color: #fff;
-    text-align: center;
-    border-radius: 0px;
-    padding: 16px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -40px;
-}
-
-/* Popup arrow */
-.popup .popuptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -53px;
-    border-width: 12px;
-    border-style: solid;
-    border-color: #757ECE transparent transparent transparent;
-}
-
-/* Toggle this class - hide and show the popup */
-.popup .show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 2s;
-}
-
-/* Add animation (fade in the popup) */
-@-webkit-keyframes fadeIn {
-    from {opacity: 0;} 
-    to {opacity: 1;}
-}
-
-@keyframes fadeIn {	
-    from {opacity: 0;}
-    to {opacity:1 ;}
-}
-</style>
 	
 <li>
-	<div class="popup" align="left" onclick="myFunction()">
+	<div class="popup" align="left" onclick="myFunctiontwo()">
 		<u>Silvia Helmreich</u>
 			<span class="popuptext" id="popupzwei">
 				<b>Silvia Helmreich</b> ist die zweite Hauptfigur des Buches und spielt somit die zweit
@@ -135,7 +75,7 @@ function myFunction() {
 
 <script>
 // When the user clicks on div, open the popup
-function myFunction() {
+function myFunctiontwo() {
     var popup = document.getElementById("popupzwei");
     popup.classList.toggle("show");
 }
@@ -149,7 +89,6 @@ function myFunction() {
 <a href="www.google.de/search?client=opera&q=Ups!+Nicht+getroffen.&sourceid=opera&ie=UTF-8&oe=UTF-8">
 	<div style="color:red;position:absolute; top:13%; left:73%;"><h3>Klick auf die Bilder!</h3></div>
 </a>
-
 
 <map name="testmap">
 	<area shape="rect"" coords="0,250,170,0" alt="Elanus_rofl_link" 
@@ -224,8 +163,119 @@ li {
 	height="230" align="right" style="position:absolute; top:45%; left:50%; ">
 </a>
 
+<h1>Popup/Modal Windows without JavaScript</h1>
+<div class="box">
+	<a class="button" href="#popup1">Let me Pop up</a>
+</div>
 
+<div id="popup1" class="overlay">
+	<div class="popup">
+		<h2>Here i am</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			Thank to pop me out of that button, but now i'm done so you can close this window.
+		</div>
+	</div>
+</div>
 
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: url(http://www.shukatsu-note.com/wp-content/uploads/2014/12/computer-564136_1280.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-family: Tahoma, Arial, sans-serif;
+  color: #06D85F;
+  margin: 80px 0;
+}
+
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #06D85F;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #06D85F;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+</style>
 
 
 
