@@ -108,13 +108,13 @@ li {
 /*Here starts the second popup */
 
 
-body {
+.body {
   font-family: Arial, sans-serif;
   background-size: cover;
   height: 100vh;
 }
 
-h1 {
+.h1 {
   text-align: center;
   font-family: Tahoma, Arial, sans-serif;
   margin: 10px 0;
