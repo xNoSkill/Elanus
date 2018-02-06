@@ -204,3 +204,10 @@ h1 {
     width: 70%;
   }
 }
+div.header{
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
