@@ -1,35 +1,37 @@
 .thumbnail1 {
-  width: 450px; 
-  padding: 0px 0;
-  position: relative; 
-  overflow: hidden; 
-  }
+    width: 450px;
+    padding: 0px 0;
+    position: relative;
+    overflow: hidden;
+}
 
-.thumbnail1 > .wrap {
-  background-repeat: no-repeat; 
-  background-size: cover;
-  position: absolute; 
-  top: 0; 
-  bottom: 0; 
-  left: 0; 
-  right: 0;
-  transform: scale(1); 
-  transition: transform 0.8s ease-in-out; 
-  z-index: -1; 
-  }
+    .thumbnail1 > .wrap {
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        transform: scale(1);
+        transition: transform 0.5s ease-in-out;
+        z-index: -1;
+    }
 
-.thumbnail1 { 
-  transition: all 0.4s ease-in-out; 
-  }
+.thumbnail1 {
+    transition: all 0.4s ease-in-out;
+}
 
-.thumbnail1:hover {
-  transform: scale(1.5); 
-  margin: -50px 0px 60px 100px;
-  }
+    .thumbnail1:hover {
+        transform: scale(1.5);
+        margin: -50px 0px 60px 100px;
+    }
+
+}
 
 .banner {
     width: 200px;
-    color: #fff;
+    color: #ffffff	;
     text-align: center;
     border-radius:100px;
 	border-style:solid;
@@ -108,16 +110,15 @@ li {
 /*Here starts the second popup */
 
 
-body {
+.body {
   font-family: Arial, sans-serif;
   background-size: cover;
   height: 100vh;
 }
 
-h1 {
+.h1 {
   text-align: center;
   font-family: Tahoma, Arial, sans-serif;
-  color: #06D85F;
   margin: 10px 0;
 }
 
@@ -214,4 +215,19 @@ h1 {
   .popup2{
     width: 70%;
   }
+}
+.header{
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+<<<<<<< HEAD
+}
+.heading {
+	font-size: 100%;
+	color: white;
+	padding: 5px;
+=======
+>>>>>>> 77df3dd027177862585084ddf387608bbc45ea8a
 }
