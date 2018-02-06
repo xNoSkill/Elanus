@@ -36,12 +36,12 @@
     border-color: #68D4F2;
     position: absolute;
     left: 42%;
-    bottom: 92%;
+    bottom: 91.5%;
     transition: all 0.7s ease-out;
     color: #ffffff;
 }
 .banner:hover {
-        background: #68D4F2;
+    background: #68D4F2;
 }
 
 /* Popup container - can be anything you want */
