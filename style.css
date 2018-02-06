@@ -1,3 +1,48 @@
+.thumbnail1 {
+  width: 450px; 
+  padding: 0px 0;
+  position: relative; 
+  overflow: hidden; 
+  }
+
+.thumbnail1 > .wrap {
+  background-repeat: no-repeat; 
+  background-size: cover;
+  position: absolute; 
+  top: 0; 
+  bottom: 0; 
+  left: 0; 
+  right: 0;
+  transform: scale(1); 
+  transition: transform 0.8s ease-in-out; 
+  z-index: -1; 
+  }
+
+.thumbnail1 { 
+  transition: all 0.4s ease-in-out; 
+  }
+
+.thumbnail1:hover {
+  transform: scale(1.5); 
+  margin: -50px 0px 60px 100px;
+  }
+
+.banner {
+    width: 200px;
+    color: #fff;
+    text-align: center;
+    border-radius:100px;
+	border-style:solid;
+	border-width:3px;
+	position:absolute;
+	left:42%;
+	bottom:90%;
+	transition: all 0.7s ease-out;
+}
+.banner:hover {
+	color:#68D4F2;
+}
+
 /* Popup container - can be anything you want */
 .popup {
     position: relative;
@@ -60,7 +105,7 @@ li {
 }
 
 
-/*Here starts the second popup*/
+//Here starts the second popup
 
 
 body {
@@ -91,7 +136,7 @@ h1 {
   font-size: 1em;
   padding: 15px;
   color: #fff;
-  border: 1.5px solid #68D4F2	;
+  border: 1.5px solid #68D4F2;
   border-radius: 70px/70px;
   text-decoration: none;
   cursor: pointer;
@@ -141,10 +186,10 @@ h1 {
   font-size: 220%;
   font-weight: bold;
   text-decoration: none;
-  color: #000000;
+  color: #FF0000;
 }
 .popup2 .close:hover {
-  color: #FF0000;
+  color: #6BFF5E;
 }
 .popup2 .content {
   max-height: 30%;
