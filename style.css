@@ -29,18 +29,19 @@
 
 .banner {
     width: 200px;
-    color: #ffffff	;
     text-align: center;
-    border-radius:100px;
-	border-style:solid;
-	border-width:3px;
-	position:absolute;
-	left:42%;
-	bottom:92%;
-	transition: all 0.7s ease-out;
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #68D4F2;
+    position: absolute;
+    left: 42%;
+    bottom: 92%;
+    transition: all 0.7s ease-out;
+    color: #ffffff;
 }
 .banner:hover {
-	color:#68D4F2;
+        background: #68D4F2;
 }
 
 /* Popup container - can be anything you want */
