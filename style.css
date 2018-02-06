@@ -215,15 +215,3 @@ h1 {
     width: 70%;
   }
 }
-.header{
-    padding: 1em;
-    color: white;
-    background-color: black;
-    clear: left;
-    text-align: center;
-}
-.heading {
-	font-size: 100%;
-	color: white;
-	padding: 5px;
-}
