@@ -105,7 +105,7 @@ li {
 }
 
 
-//Here starts the second popup
+/*Here starts the second popup */
 
 
 body {
@@ -196,6 +196,18 @@ h1 {
   overflow: auto;
 }
 
+<<<<<<< HEAD
+@media screen and (max-width: 700px) {
+    .box {
+        width: 70%;
+    }
+
+    .popup2 {
+        width: 70%;
+    }
+.a {
+    text-decoration:none;
+=======
 @media screen and (max-width: 700px){
   .box{
     width: 70%;
@@ -203,4 +215,17 @@ h1 {
   .popup2{
     width: 70%;
   }
+}
+.header{
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+.heading {
+	font-size: 100%;
+	color: white;
+	padding: 5px;
+>>>>>>> 77315762b5006bf2dd35f38636b0a367863e524b
 }
