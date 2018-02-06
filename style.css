@@ -196,7 +196,6 @@ h1 {
   overflow: auto;
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 700px) {
     .box {
         width: 70%;
@@ -207,7 +206,7 @@ h1 {
     }
 .a {
     text-decoration:none;
-=======
+
 @media screen and (max-width: 700px){
   .box{
     width: 70%;
@@ -227,5 +226,4 @@ h1 {
 	font-size: 100%;
 	color: white;
 	padding: 5px;
->>>>>>> 77315762b5006bf2dd35f38636b0a367863e524b
 }
