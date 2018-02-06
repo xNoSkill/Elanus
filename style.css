@@ -105,7 +105,7 @@ li {
 }
 
 
-//Here starts the second popup
+/*Here starts the second popup */
 
 
 body {
@@ -210,4 +210,9 @@ h1 {
     background-color: black;
     clear: left;
     text-align: center;
+}
+.heading {
+	font-size: 100%;
+	color: white;
+	padding: 5px;
 }
