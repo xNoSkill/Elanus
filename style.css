@@ -19,26 +19,30 @@
 }
 
 .thumbnail1 {
-    transition: all 0.4s ease-in-out;
+    transition: all 0.6s ease-in-out;
 }
 
 .thumbnail1:hover {
-    transform: scale(1.5);
-    margin: -50px 0px 60px 100px;
+    transform: scale(1.2);
+    margin: -10px 0px 0px 15px;
 }
 
+
+
 .banner {
-    width: 200px;
-    text-align: center;
-    border-radius: 100px;
+    width: 99.55%;
+    text-align: in der mitte;
+    border-radius: 0px;
     border-style: solid;
     border-width: 3px;
     border-color: #68D4F2;
     position: absolute;
-    left: 42%;
+    left: 0%;
     bottom: 91.5%;
     transition: all 0.7s ease-out;
     color: #ffffff;
+    background: #68D4F2;
+    border-color: #68d4f2;
 }
 .banner:hover {
     background: #68D4F2;
