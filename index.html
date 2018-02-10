@@ -6,6 +6,9 @@
 <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8">
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+<!--ZEUG WAS KEINER BRAUCHT ABER NÖTIG IST DAMIT DIE SEITE FUNKTIONIERT-->
+<audio id='mySound' src='mousehover.wav' />
+<!--ENDLICH MAL ORDNUNG-->
 <body style="background-color:darkgrey">
     <a align="center" style="text-decoration: none;font-size:250%;" href="https://xnoskill.github.io/Elanus/">
         <header class="banner">
@@ -65,18 +68,8 @@
             </div>
         </li>
     </ul>
-    <script>
-        // When the user clicks on div, open the popup
-        function myFunction() {
-            var popup = document.getElementById("myPopup");
-            popup.classList.toggle("show");
-            }
-        // When the user clicks on div, open the popup
-        function myFunctiontwo() {
-            var popup = document.getElementById("popupzwei");
-            popup.classList.toggle("show");
-        }
-    </script>
+    <script src="javascript.js"></script>
+    
     
 
 
@@ -119,19 +112,7 @@
             </div>
         </div>
 
-        <audio id='mySound' src='multimedia_rollover_027.mp3' />
-
-        <script>
-            function PlaySound(soundobj) {
-                var thissound = document.getElementById(soundobj);
-                thissound.play();
-            }
-
-            function StopSound(soundobj) {
-                var thissound = document.getElementById(soundobj);
-                thissound.pause();
-                thissound.currentTime = 0;
-            }</script>
+        
 
 
 
