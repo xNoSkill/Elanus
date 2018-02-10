@@ -77,6 +77,8 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    transition: all .3s ease-in-out;
+    font-size: 115%;
 }
 
 /* The actual popup */
@@ -87,12 +89,13 @@
     color: #fff;
     text-align: center;
     border-radius: 20px;
-    padding: 16px 0;
+    padding: 1% 0;
     position: absolute;
     z-index: 1;
     bottom: 125%;
     left: 50%;
     margin-left: -40px;
+
 }
 
 /* Popup arrow */
@@ -128,10 +131,51 @@
 li {
 	padding: 4px; 
 }
+/*Popup growing*/
 
+.popup:hover {
+        transform: scale(0.95);
+        margin: 0.3% 0% 0.5% 0.3%;
+        text-decoration: underline;
+        color: #7214d0;
+}
 
 /*Here starts the second popup */
+.popup2 {
+    margin: 10px auto;
+    padding: 7px;
+    background: #fff;
+    border-radius: 10px;
+    width: 40%;
+    position: relative;
+    transition: all 2s ease-in-out;
+}
 
+    .popup2 h2 {
+        margin-top: 0;
+        color: #333;
+        font-family: Tahoma, Arial, sans-serif;
+    }
+
+    .popup2 .close {
+        position: absolute;
+        top: 3%;
+        right: 3%;
+        transition: all 200ms;
+        font-size: 220%;
+        font-weight: bold;
+        text-decoration: none;
+        color: #FF0000;
+    }
+
+        .popup2 .close:hover {
+            color: #6BFF5E;
+        }
+
+    .popup2 .content {
+        max-height: 30%;
+        overflow: auto;
+    }
 
 body {
   font-family: Arial, sans-serif;
@@ -187,38 +231,7 @@ h1 {
   opacity: 1;
 }
 
-.popup2 {
-  margin: 10px auto;
-  padding: 7px;
-  background: #fff;
-  border-radius: 10px;
-  width: 40%;
-  position: relative;
-  transition: all 2s ease-in-out;
-}
 
-.popup2 h2 {
-  margin-top: 0;
-  color: #333;
-  font-family: Tahoma, Arial, sans-serif;
-}
-.popup2 .close {
-  position: absolute;
-  top: 3%;
-  right: 3%;
-  transition: all 200ms;
-  font-size: 220%;
-  font-weight: bold;
-  text-decoration: none;
-  color: #FF0000;
-}
-.popup2 .close:hover {
-  color: #6BFF5E;
-}
-.popup2 .content {
-  max-height: 30%;
-  overflow: auto;
-}
 
 @media screen and (max-width: 700px) {
     .box {
@@ -245,11 +258,3 @@ h1 {
 }
 
 
-
-    .grow {
-        transition: all .2s ease-in-out;
-    }
-
-        .grow:hover {
-            transform: scale(2);
-        }
