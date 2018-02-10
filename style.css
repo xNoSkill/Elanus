@@ -79,6 +79,8 @@
     user-select: none;
     transition: all .3s ease-in-out;
     font-size: 115%;
+    color:#0d30d7;
+    padding: -10%;
 }
 
 /* The actual popup */
