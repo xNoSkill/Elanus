@@ -90,8 +90,8 @@
     background-color: #8F97FF;
     color: #fff;
     text-align: center;
-    border-radius: 20px;
-    padding: 1% 0;
+    border-radius: 10px;
+    padding: 20% 25%;
     position: absolute;
     z-index: 1;
     bottom: 125%;
@@ -141,7 +141,7 @@ li {
         text-decoration: none;
         color:#6BFF5E;
         border-style: outset;
-        border-width: 4px;
+        border-width: 3px;
         border-color: #fe0000;
         border-radius: 0%;
         padding: 0.2%;
