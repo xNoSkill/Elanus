@@ -79,7 +79,7 @@
     user-select: none;
     transition: all .3s ease-in-out;
     font-size: 115%;
-    color:#0d30d7;
+    color:#171616;
     padding: -10%;
 }
 
@@ -138,8 +138,13 @@ li {
 .popup:hover {
         transform: scale(0.95);
         margin: 0.3% 0% 0.5% 0.3%;
-        text-decoration: underline;
-        color: #12982d;
+        text-decoration: none;
+        color:#6BFF5E;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #fe0000;
+        border-radius: 10%;
+
 }
 
 /*Here starts the second popup */
