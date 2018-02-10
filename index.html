@@ -14,7 +14,7 @@ Elanus
 </a>
 
 <a href="https://www.amazon.de/Elanus-Ursula-Poznanski/dp/3785582315/ref=sr_1_1?ie=UTF8&qid=1517322591&sr=8-1&keywords=elanus">
-<img  src="elanus_rückseite.jpg" style="width:9%;height:25%;position:absolute;top:7%;left:87%;">
+<img  src="elanus   rückseite.jpg" style="width:9%;height:25%;position:absolute;top:7%;left:87%;">
 </a>
 <audio src="song.wav" autoplay="yes" loop="">Your browser does not support the <tt>audio</tt> element.</audio>
 </a>
@@ -40,13 +40,14 @@ Doch Jona bringt ein Geheimnis mit nach Rotheim. In einem kleinen Koffer beförd
 Hauptfiguren:
 <ul>
 <li>
-	<div class="popup" align="left" onclick="myFunction()">
-        <audio preload="auto" id="sound"><u>Jona</u></audio>
-			<span class="popuptext" id="myPopup">
-				<b><data value="21055"Jona</data></b> ist die Hauptfigur des Buches, und spielt somit die größte Rolle. 
-			</span>
-		</u>
-	</div>
+    <div class="popup" align="left" onclick="myFunction()">
+        <p onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">
+            <u>Jona</u></p>
+            <span class="popuptext" id="myPopup">
+                <b><data value="21055" >Jona</data></b> ist die Hauptfigur des Buches, und spielt somit die größte Rolle.
+            </span>
+            </u>
+</div>
 </li>
 
 <script>
@@ -60,12 +61,14 @@ function myFunction() {
 
 <li>
 	<div class="popup" align="left" onclick="myFunctiontwo()">
-		<u>Silvia Helmreich</u>
-			<span class="popuptext" id="popupzwei">
-				<b>Silvia Helmreich</b> ist die zweite Hauptfigur des Buches und spielt somit die zweit
-				größte Rolle
-			</span>
-	</div>
+        <p onmouseover="PlaySound('mySound')"
+           onmouseout="StopSound('mySound')">
+            <u>Silvia Helmreich</u></p>
+            <span class="popuptext" id="popupzwei">
+                <b>Silvia Helmreich</b> ist die zweite Hauptfigur des Buches und spielt somit die zweit
+                größte Rolle
+            </span>
+</div>
 </li>
 </ul>
 <script>
@@ -99,11 +102,6 @@ function myFunctiontwo() {
 </div>
 
 
-<input list="browsers">
-
-<datalist id="browsers">
-  <option value="Internet Explorer">
-</datalist>
 
 <!-- DAS ENDE -->
 <div id="popup1" class="overlay">
@@ -120,7 +118,7 @@ function myFunctiontwo() {
 <p onmouseover="PlaySound('mySound')" 
     onmouseout="StopSound('mySound')">Hover Over Me To Play</p>
 
-<audio id='mySound' src='http://upload.wikimedia.org/wikipedia/commons/6/6f/Cello_Live_Performance_John_Michel_Tchaikovsky_Violin_Concerto_3rd_MVT_applaused_cut.ogg' />
+<audio id='mySound' src='hover.mp3' />
 
 <script>function PlaySound(soundobj) {
         var thissound = document.getElementById(soundobj);
