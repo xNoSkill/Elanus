@@ -41,14 +41,13 @@ Hauptfiguren:
 <ul>
 <li>
 	<div class="popup" align="left" onclick="myFunction()">
-		<u>Jona</u>
+        <audio preload="auto" id="sound"><u>Jona</u></audio>
 			<span class="popuptext" id="myPopup">
 				<b><data value="21055"Jona</data></b> ist die Hauptfigur des Buches, und spielt somit die größte Rolle. 
 			</span>
 		</u>
 	</div>
 </li>
-
 
 <script>
 // When the user clicks on div, open the popup
@@ -118,7 +117,21 @@ function myFunctiontwo() {
 	</div>
 </div>
 
+<p onmouseover="PlaySound('mySound')" 
+    onmouseout="StopSound('mySound')">Hover Over Me To Play</p>
 
+<audio id='mySound' src='http://upload.wikimedia.org/wikipedia/commons/6/6f/Cello_Live_Performance_John_Michel_Tchaikovsky_Violin_Concerto_3rd_MVT_applaused_cut.ogg' />
+
+<script>function PlaySound(soundobj) {
+        var thissound = document.getElementById(soundobj);
+        thissound.play();
+    }
+
+    function StopSound(soundobj) {
+        var thissound = document.getElementById(soundobj);
+        thissound.pause();
+        thissound.currentTime = 0;
+    }</script>
 
 </body>
 
