@@ -41,7 +41,7 @@ Hauptfiguren:
 <ul>
 <li>
     <div class="popup" align="left" onclick="myFunction()">
-        <p onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">
+        <p onmouseover="PlaySound('mySound')">
             <u>Jona</u></p>
             <span class="popuptext" id="myPopup">
                 <b><data value="21055" >Jona</data></b> ist die Hauptfigur des Buches, und spielt somit die größte Rolle.
@@ -60,10 +60,9 @@ function myFunction() {
 
 
 <li>
-	<div class="popup" align="left" onclick="myFunctiontwo()">
-        <p onmouseover="PlaySound('mySound')"
-           onmouseout="StopSound('mySound')">
-            <u>Silvia Helmreich</u></p>
+	<div class="popup" class=align="left" onclick="myFunctiontwo()">
+        <p onmouseover="PlaySound('mySound')">
+            Silvia Helmreich</p>
             <span class="popuptext" id="popupzwei">
                 <b>Silvia Helmreich</b> ist die zweite Hauptfigur des Buches und spielt somit die zweit
                 größte Rolle
@@ -118,7 +117,7 @@ function myFunctiontwo() {
 <p onmouseover="PlaySound('mySound')" 
     onmouseout="StopSound('mySound')">Hover Over Me To Play</p>
 
-<audio id='mySound' src='hover.mp3' />
+<audio id='mySound' src='multimedia_rollover_027.mp3' />
 
 <script>function PlaySound(soundobj) {
         var thissound = document.getElementById(soundobj);
