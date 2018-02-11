@@ -84,7 +84,7 @@
     user-select: none;
     transition: all .3s ease-in-out;
     font-size: 115%;
-    color:#171616;
+    color:#6cdfff;
     padding: -10%;
 }
 
@@ -136,7 +136,7 @@
 }
 
 li {
-	padding: 4px; 
+	padding: 2px; 
 }
 /*Popup growing*/
 
@@ -147,10 +147,10 @@ li {
         color:#6BFF5E;
         border-style: outset;
         border-width: 3px;
-        border-color: #fe0000;
+        border-color: #757ECE;
         border-radius: 0%;
         padding: 0.2%;
-        background: #59b8d3;
+        background: #68D4F2;
         
 }
 
@@ -199,6 +199,12 @@ body {
     font-family: Doppio One;
     background-size: cover;
     height: 100vh;
+    display: table;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://cf.ltkcdn.net/web-design/images/orig/204538-2261x1326-HTML.jpg');
+    background-position: center top;
+    height: 350px;
+    color: #68D4F2;
 }
 
     body.fade-out {
