@@ -190,6 +190,7 @@ li {
     .popup2 .content {
         max-height: 30%;
         overflow: auto;
+        color:#000000;
     }
 
 
@@ -289,5 +290,6 @@ h2 {
 }
 
 .text {
-
+    top:30%;
+    left:20%;
 }
