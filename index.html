@@ -6,9 +6,6 @@
 <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8">
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<!--ZEUG WAS KEINER BRAUCHT ABER NÖTIG IST DAMIT DIE SEITE FUNKTIONIERT-->
-<audio id='mySound' src='mousehover.wav' />
-<!--ENDLICH MAL ORDNUNG-->
 <body style="background-color:darkgrey">
     <a align="center" style="text-decoration: none;font-size:250%;" href="https://xnoskill.github.io/Elanus/">
         <header class="banner">
@@ -69,8 +66,11 @@
         </li>
     </ul>
     <script src="javascript.js"></script>
-    
-    
+    <audio src="mousehover.wav>" id='mySound'></audio>
+    <p onmouseover="PlaySound('mySound')"
+       onmouseout="StopSound('mySound')">Hover Over Me To Play</p>
+
+    <audio id='mySound' src='http://upload.wikimedia.org/wikipedia/commons/6/6f/Cello_Live_Performance_John_Michel_Tchaikovsky_Violin_Concerto_3rd_MVT_applaused_cut.ogg' />
 
 
 
@@ -112,7 +112,7 @@
             </div>
         </div>
 
-        
+
 
 
 
