@@ -86,7 +86,6 @@
     transition: all .1s ease-in-out;
     font-size: 100%;
     color:#68D4F2;
-    padding: -5%;
 }
 
 /* The actual popup */
@@ -137,7 +136,7 @@
 }
 
 li {
-	padding: 4px; 
+	padding: 2%; 
 }
 /*Popup growing*/
 
