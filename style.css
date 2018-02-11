@@ -84,7 +84,7 @@
     user-select: none;
     transition: all .3s ease-in-out;
     font-size: 115%;
-    color:#171616;
+    color:#68D4F2;
     padding: -10%;
 }
 
@@ -184,8 +184,8 @@ li {
 
         .popup2 .close:hover {
             color: #6BFF5E;
-            -webkit-transform: translate(20%, -10%) rotate(180deg);
-        }
+            -webkit-transform: translate(3%, -3%) rotate(180deg);
+}
 
     .popup2 .content {
         max-height: 30%;
@@ -200,18 +200,11 @@ body {
     background-size: cover;
     height: 100vh;
     display: table;
-    display: table;
     width: 100%;
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) );
-    background-position: bottom;
+    background-position: center top;
     height: 350px;
+    color: white;
 }
-}
-
-    body.fade-out {
-        opacity: 0;
-        transition: none;
-    }
 
 h2 {
     font-family: Cutive Mono;
