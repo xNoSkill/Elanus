@@ -190,7 +190,7 @@ li {
 body {
     opacity: 1;
     transition: 1s opacity;
-    font-family: Chau Philomene Ones;
+    font-family: Cousine;
     background-size: cover;
     height: 100vh;
 }
@@ -201,7 +201,7 @@ body {
     }
 
 h2 {
-    font-family: Cousine;
+    font-family: Cutive Mono;
 }
 
 .box {
