@@ -190,7 +190,7 @@ li {
 body {
     opacity: 1;
     transition: 1s opacity;
-    font-family: Cousine;
+    font-family: Doppio One;
     background-size: cover;
     height: 100vh;
 }
@@ -272,4 +272,12 @@ h2 {
     }
 }
 
-
+.sinnlos {
+    color: red;
+    position: absolute;
+    top: 13%;
+    left: 73%;
+}
+.sinnlos:hover{
+    text-decoration: underline;
+}
