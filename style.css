@@ -1,8 +1,12 @@
 .thumbnail1 {
-    width: 450px;
     padding: 0px 0;
-    position:relative;
+    position: relative;
     overflow: hidden;
+    position: relative;
+    top: 10%;
+    left: 82%;
+    width: 10%;
+    height: 30%;
 }
 
 .thumbnail1 > .wrap {
@@ -146,6 +150,8 @@ li {
         border-color: #fe0000;
         border-radius: 0%;
         padding: 0.2%;
+        background: #59b8d3;
+        
 }
 
 /*Here starts the second popup */
