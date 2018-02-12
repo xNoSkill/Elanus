@@ -137,9 +137,6 @@
     to {opacity:1 ;}
 }
 
-li {
-	padding: 2%; 
-}
 /*Popup hover*/
 
 .popup:hover {
@@ -314,3 +311,4 @@ h2 {
 .cursor:hover {
     cursor: url('cursor_csgo.cur'),auto;
 }
+
