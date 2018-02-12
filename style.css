@@ -138,7 +138,7 @@
 li {
 	padding: 2%; 
 }
-/*Popup growing*/
+/*Popup hover*/
 
 .popup:hover {
         transform: scale(0.95);
@@ -175,13 +175,13 @@ li {
         position: absolute;
         top: 3%;
         right: 3%;
-        transition: all 200ms;
+        transition: all .6s ease-in-out;
         font-size: 220%;
         font-weight: bold;
         text-decoration: none;
         color: #FF0000;
     }
-
+        
         .popup2 .close:hover {
             color: #6BFF5E;
             -webkit-transform: translate(3%, -3%) rotate(180deg);
@@ -191,6 +191,7 @@ li {
         max-height: 30%;
         overflow: auto;
         color:#000000;
+        font-family: Doppio One;
     }
 
 
@@ -229,12 +230,14 @@ h2 {
   border: 1.5px solid #68D4F2;
   border-radius: 70px/70px;
   text-decoration: none;
-  cursor: pointer;
+  cursor: url('cursor_dreieck.cur'), auto;
   transition: all 0.7s ease-out;
 }
 
 .button:hover {
   background: #68D4F2;
+  transform: scale(1.02);
+  margin: 0%;
 }
 
 .overlay {
@@ -284,12 +287,28 @@ h2 {
     position: absolute;
     top: 13%;
     left: 73%;
+    transition: all .2s ease-in;
 }
 .sinnlos:hover{
     text-decoration: underline;
+    transform: scale(0.93);
+    margin: 0.05% 0% 0% 0.05%;
 }
 
 .text {
-    top:30%;
-    left:20%;
+   left:3%;
+   position: relative;
+   transition: all .5s ease-in-out;
+   color: rgba(255,255,255,0.2);
+}
+
+.text:hover {
+    margin: -1% 0% 0% 0%;
+    transform: scale(1.05);
+    color:#FFF;
+    background: rgba(0, 0, 0, 0.3);
+    cursor: url('cursor_dreieck.cur'),auto;
+}
+.cursor:hover {
+    cursor: url('cursor_csgo.cur'),auto;
 }
