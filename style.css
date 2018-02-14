@@ -295,12 +295,13 @@ h2 {
 }
 
 .text {
-   left:3%;
-   position: relative;
-   transition: all .5s ease-in-out;
-   color: rgba(255,255,255,0.1);
-   text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    left: 3%;
+    position: relative;
+    transition: all .5s ease-in-out;
+    color: rgba(255,255,255,0.1);
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
     padding: 0.6%;
+    text-shadow: 2px 2px 8px #333;
 }
 
 .text:hover {
@@ -312,4 +313,4 @@ h2 {
 }
 .cursor:hover {
     cursor: url('cursor_csgo.cur'),auto;
-}
+} 
