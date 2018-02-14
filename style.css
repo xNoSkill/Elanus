@@ -1,12 +1,12 @@
 .thumbnail1 {
     padding: 0px 0;
-    position: relative;
+    position: absolute;
     overflow: hidden;
-    position: relative;
-    top: 10%;
-    left: 82%;
+    top: 24%;
+    left: 82.5%;
     width: 10%;
     height: 30%;
+    transition: all 0.6s ease-in-out;
 }
 
 .thumbnail1 > .wrap {
@@ -22,25 +22,23 @@
         z-index: -1;
 }
 
-.thumbnail1 {
-    transition: all 0.6s ease-in-out;
-}
-
 .thumbnail1:hover {
     transform: scale(1.2);
     margin: -10px 0px 0px 15px;
 }
 
 .thumbnail2 {
-    position: relative;
-    width: 25%;
+    position: absolute;
+    width: 22%;
+    height:210px;
     padding: 0px 0;
     overflow: hidden;
-    border-style: solid;
+    border-style:hidden;
     border-width: 1%;
     border-color: #282323;
     border-radius: 20%;
-    bottom: 30%;
+    top:60%;
+    left:70%;
     transition: all 0.6s ease-in-out;
 }
 
@@ -51,8 +49,7 @@
     margin: -10px 0px 0px 15px;
     border-style: hidden;
     border-width: 0%;
-    border-radius:4%;
-        
+    border-radius:4%;        
 }
 
 .banner {
