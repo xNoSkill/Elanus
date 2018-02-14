@@ -25,6 +25,7 @@
 .thumbnail1:hover {
     transform: scale(1.2);
     margin: -10px 0px 0px 15px;
+    cursor: url('cursor_dreieck.cur'), auto;
 }
 
 .thumbnail2 {
@@ -49,7 +50,8 @@
     margin: -10px 0px 0px 15px;
     border-style: hidden;
     border-width: 0%;
-    border-radius:4%;        
+    border-radius:4%; 
+    cursor: url('cursor_dreieck.cur'), auto;
 }
 
 .banner {
