@@ -298,7 +298,9 @@ h2 {
    left:3%;
    position: relative;
    transition: all .5s ease-in-out;
-   color: rgba(255,255,255,0.2);
+   color: rgba(255,255,255,0.1);
+   text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    padding: 1%;
 }
 
 .text:hover {
