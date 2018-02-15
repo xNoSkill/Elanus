@@ -146,16 +146,13 @@
 /* POPUP ANIMATION WHEN HOVERED */
 
 .popup:hover {
-        transform: scale(0.95);
-        margin: 0.3% 0% 0.5% 0.3%;
-        text-decoration: none;
-        color:#000000;
-        border-style: outset;
-        border-width: 3px;
-        border-color: #757ECE;
-        border-radius: 0%;
-        padding: 0.2%;
-        background: #fff;
+    transform: scale(0.95);
+    margin: 0.3% 0% 0.5% 0.3%;
+    text-decoration: none;
+    color:#000000;
+    border-style: hidden;
+    padding: 0.2%;
+    background: #fff;
         
 }
 
