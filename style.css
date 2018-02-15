@@ -1,16 +1,13 @@
+/* HTML SETTINGS */
 .html {
     height: 100%;
     margin-bottom: 0.01em;
 }
-
-
 .html:hover {
     cursor: url('cursor_csgo.cur'),auto;
 }
 
-
-
-
+/* THUMBNAIL1 FOR PICTURES */
 .thumbnail1 {
     padding: 0px 0;
     position: absolute;
@@ -21,7 +18,6 @@
     height: 30%;
     transition: all 0.6s ease-in-out;
 }
-
 .thumbnail1 > .wrap {
         background-repeat: no-repeat;
         background-size: cover;
@@ -34,13 +30,13 @@
         transition: transform 0.5s ease-in-out;
         z-index: -1;
 }
-
 .thumbnail1:hover {
     transform: scale(1.2);
     margin: -10px 0px 0px 15px;
     cursor: url('cursor_dreieck.cur'), auto;
 }
 
+/* THUMBNAIL2 FOR URSULA PICTURE */
 .thumbnail2 {
     position: absolute;
     width: 22%;
@@ -55,9 +51,6 @@
     left:70%;
     transition: all 0.6s ease-in-out;
 }
-
-
-
 .thumbnail2:hover {
     transform: scale(1.05);
     margin: -10px 0px 0px 15px;
@@ -67,6 +60,7 @@
     cursor: url('cursor_dreieck.cur'), auto;
 }
 
+/* ELANUS BANNER */
 .banner {
     width: 99.55%;
     border-radius: 0px;
@@ -82,12 +76,11 @@
     border-color: #68d4f2;
     font-family: Audiowide;
 }
-
 .banner:hover {
     background: #51b9d5;
 }
 
-/* Popup container - can be anything you want */
+/* POPUP SETTINGS */
 .popup {
     position: unset;
     display: inline-block;
@@ -103,7 +96,7 @@
     padding: 1%;
 }
 
-/* The actual popup */
+/* THE ACTUAL POPUP */
 .popup .popuptext {
     visibility: hidden;
     width: 900%;
@@ -120,7 +113,7 @@
 
 }
 
-/* Popup arrow */
+/* THE POPUP ARROW */
 .popup .popuptext::after {
     content: "";
     position: absolute;
@@ -139,7 +132,7 @@
     animation: fadeIn 2s;
 }
 
-/* Add animation (fade in the popup) */
+/* POPUP ANIMATION (fade in the popup) */
 @-webkit-keyframes fadeIn {
     from {opacity: 0;} 
     to {opacity: 1;}
@@ -150,7 +143,7 @@
     to {opacity:1 ;}
 }
 
-/*Popup hover*/
+/* POPUP ANIMATION WHEN HOVERED */
 
 .popup:hover {
         transform: scale(0.95);
@@ -166,7 +159,7 @@
         
 }
 
-/*Here starts the second popup */
+/* THE SCOND POPUP */
 .popup2 {
     margin: 10px auto;
     padding: 7px;
@@ -176,37 +169,33 @@
     position: relative;
     transition: all 2s ease-in-out;
 }
-
-    .popup2 h2 {
-        margin-top: 0;
-        color: #333;
-        font-family: Tahoma, Arial, sans-serif;
-    }
-
-    .popup2 .close {
-        position: absolute;
-        top: 3%;
-        right: 3%;
-        transition: all .6s ease-in-out;
-        font-size: 220%;
-        font-weight: bold;
-        text-decoration: none;
-        color: #FF0000;
-    }
-        
-        .popup2 .close:hover {
-            color: #6BFF5E;
-            -webkit-transform: translate(3%, -3%) rotate(180deg);
+.popup2 h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+}
+.popup2 .close {
+    position: absolute;
+    top: 3%;
+    right: 3%;
+    transition: all .6s ease-in-out;
+    font-size: 220%;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FF0000;
+}
+.popup2 .close:hover {
+    color: #6BFF5E;
+    -webkit-transform: translate(3%, -3%) rotate(180deg);
+}
+.popup2 .content {
+    max-height: 30%;
+    overflow: auto;
+    color:#000000;
+    font-family: Doppio One;
 }
 
-    .popup2 .content {
-        max-height: 30%;
-        overflow: auto;
-        color:#000000;
-        font-family: Doppio One;
-    }
-
-
+/* THE BODY */
 body {
     opacity: 1;
     transition: 1s opacity;
@@ -220,56 +209,54 @@ body {
     color: white;
 }
 
+/* ALL H2 */
 h2 {
     font-family: Cutive Mono;
 }
 
+/* POPUP2 BOX*/
 .box {
-  width: 10%;
-  margin: 0 auto;
-  background: rgba(255,255,255,0.2);
-  padding: 25px;
-  border: 1.5px solid #fff;
-  border-radius: 30px/30px;
-  background-clip: padding-box;
-  text-align: center;
+    width: 10%;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.2);
+    padding: 25px;
+    border: 1.5px solid #fff;
+    border-radius: 30px/30px;
+    background-clip: padding-box;
+    text-align: center;
 }
-
 .button {
-  font-size: 1em;
-  padding: 15px;
-  color: #fff;
-  border: 1.5px solid #68D4F2;
-  border-radius: 70px/70px;
-  text-decoration: none;
-  cursor: url('cursor_dreieck.cur'), auto;
-  transition: all 0.7s ease-out;
+    font-size: 1em;
+    padding: 15px;
+    color: #fff;
+    border: 1.5px solid #68D4F2;
+    border-radius: 70px/70px;
+    text-decoration: none;
+    cursor: url('cursor_dreieck.cur'), auto;
+    transition: all 0.7s ease-out;
 }
-
 .button:hover {
-  background: #68D4F2;
-  transform: scale(1.02);
-  margin: 0%;
+    background: #68D4F2;
+    transform: scale(1.02);
+    margin: 0%;
 }
-
 .overlay {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.4);
-  transition: opacity 1200ms;
-  visibility: hidden;
-  opacity: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.4);
+    transition: opacity 1200ms;
+    visibility: hidden;
+    opacity: 0;
 }
 .overlay:target {
-  visibility: visible;
-  opacity: 1;
+    visibility: visible;
+    opacity: 1;
 }
 
-
-
+/* I DONT KNOW WHAT THIS IS FOR*/
 @media screen and (max-width: 700px) {
     .box {
         width: 70%;
@@ -294,6 +281,7 @@ h2 {
     }
 }
 
+/* CLASS FOR THE JOKE */
 .sinnlos {
     color: red;
     position: absolute;
@@ -307,6 +295,7 @@ h2 {
     margin: 0.05% 0% 0% 0.05%;
 }
 
+/* TEXT */
 .text {
     left: 3%;
     position: relative;
@@ -316,11 +305,35 @@ h2 {
     padding: 0.6%;
     text-shadow: 2px 2px 8px #333;
 }
-
 .text:hover {
     margin: -1% 0% 0% 0%;
     transform: scale(1.05);
     color:#FFF;
     background: rgba(0, 0, 0, 0.3);
     cursor: url('cursor_dreieck.cur'),auto;
+}
+
+
+main {
+    position: relative;
+    background: white;
+    height: 200px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    resize: both;
+    overflow: auto;
+}
+
+main div {
+    background: tomato;
+    color:mediumaquamarine;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    resize:both;
+    overflow: auto;
 }
