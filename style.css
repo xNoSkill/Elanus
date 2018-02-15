@@ -281,7 +281,7 @@ h2 {
 
 /* CLASS FOR THE JOKE */
 .sinnlos {
-    color: red;
+    color:#D38A8A;
     position: absolute;
     top: 13%;
     left: 73%;
@@ -307,8 +307,10 @@ h2 {
     margin: -1% 0% 0% 0%;
     transform: scale(1.05);
     color:#FFF;
+    width: 100%;
+    border-style:hidden;
     background: rgba(0, 0, 0, 0.3);
-    cursor: url('cursor_dreieck.cur'),auto;
+    cursor: url('cursor_dreieck.cur'),auto; 
 }
 
 
