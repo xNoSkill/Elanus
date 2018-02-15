@@ -1,3 +1,16 @@
+.html {
+    height: 100%;
+    margin-bottom: 0.01em;
+}
+
+
+.html:hover {
+    cursor: url('cursor_csgo.cur'),auto;
+}
+
+
+
+
 .thumbnail1 {
     padding: 0px 0;
     position: absolute;
@@ -310,16 +323,4 @@ h2 {
     color:#FFF;
     background: rgba(0, 0, 0, 0.3);
     cursor: url('cursor_dreieck.cur'),auto;
-}
-.cursor:hover {
-    cursor: url('cursor_csgo.cur'),auto;
-}
-
-.ursulaheader {
-    border-style: solid;
-    border-width: 3px;
-    border-color: #000000;
-    border-radius: 0%;
-    padding: 0.2%;
-    background: #000000;
 }
