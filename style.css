@@ -133,16 +133,12 @@ li {
 /*Here starts the second popup */
 
 
-body {
-  font-family: Arial, sans-serif;
-  background-size: cover;
-  height: 100vh;
-}
+
 
 h1 {
-  text-align: center;
-  font-family: Tahoma, Arial, sans-serif;
-  margin: 10px 0;
+    text-align: center; 
+    text-decoration: none;
+    font-size: 150%;
 }
 
 .box {
@@ -238,6 +234,20 @@ h1 {
   .popup2{
     width: 70%;
   }
+}
+div.container{
+    width: 100%;
+    border: 20px solid grey;
+}
+          
+
+.header {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+    text-decoration: none;
 }
 
 
