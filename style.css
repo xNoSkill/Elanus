@@ -192,17 +192,6 @@
     font-family: Doppio One;
 }
 
-<<<<<<< HEAD
-/*Here starts the second popup */
-
-
-
-
-h1 {
-    text-align: center; 
-    text-decoration: none;
-    font-size: 150%;
-=======
 /* THE BODY */
 body {
     opacity: 1;
@@ -221,7 +210,6 @@ body {
 /* ALL H2 */
 h2 {
     font-family: Cutive Mono;
->>>>>>> 9de780d1827594170096c67aa4d4fd30ae2ac5a7
 }
 
 /* POPUP2 BOX*/
@@ -289,20 +277,6 @@ h2 {
             }
         }
     }
-}
-div.container{
-    width: 100%;
-    border: 20px solid grey;
-}
-          
-
-.header {
-    padding: 1em;
-    color: white;
-    background-color: black;
-    clear: left;
-    text-align: center;
-    text-decoration: none;
 }
 
 /* CLASS FOR THE JOKE */
