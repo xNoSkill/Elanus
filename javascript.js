@@ -21,7 +21,7 @@ thissound.pause();
 thissound.currentTime = 0;
 }
 
-function myFunctionthree(a) {
+function myFunctionthree() {
     var element = document.getElementById("mytext");
     element.classList.toggle("textb");
 }
