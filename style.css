@@ -295,7 +295,7 @@ h2 {
 
 /* TEXT */
 .text {
-    left: 3%;
+    left: 2.5%;
     position: relative;
     transition: all .5s ease-in-out;
     color: rgba(255,255,255,0.1);
@@ -304,7 +304,7 @@ h2 {
     text-shadow: 2px 2px 8px #333;
 }
 .text:hover {
-    margin: -1% 0% 0% 0%;
+    margin: 1% 0% 0% 0%;
     transform: scale(1.05);
     color:#FFF;
     width: 100%;
@@ -336,4 +336,25 @@ main div {
     padding: 20px;
     resize:both;
     overflow: auto;
+}
+/*Soll der Inhaltbutton werden*/
+.inhalt {
+    color:white;
+    font-size:50%;
+    margin-top: -1%;
+}
+
+.textb {
+    margin: 1% 0% 0% 0%;
+    transform: scale(1.05);
+    color: #FFF;
+    width: 100%;
+    border-style: hidden;
+    background: rgba(0, 0, 0, 0.3);
+    cursor: url('cursor_dreieck.cur'),auto;
+}
+
+.toogletext {
+    font-size:100%;
+    color:tomato;
 }

@@ -18,4 +18,10 @@ function PlaySound(soundobj) {
 function StopSound(soundobj) {
 var thissound = document.getElementById(soundobj);
 thissound.pause();
-thissound.currentTime = 0;}
+thissound.currentTime = 0;
+}
+
+function myFunctionthree() {
+    var element = document.getElementById("mytext");
+    element.classList.toggle("textb");
+}
