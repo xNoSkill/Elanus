@@ -304,9 +304,10 @@ h2 {
     text-shadow: 0 0 5px rgba(0,0,0,0.5);
     padding: 0.6%;
     text-shadow: 2px 2px 8px #333;
+    margin-top: 0%;
 }
 .text:hover {
-    margin: 1% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
     transform: scale(1.05);
     color:#FFF;
     width: 100%;
@@ -347,7 +348,7 @@ main div {
 }
 
 .textb {
-    margin: 1% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
     transform: scale(1.05);
     color: #FFF;
     width: 100%;
@@ -387,6 +388,10 @@ li a:hover {
         }
 li a.active {
     background-color: #13bf56;
+}
+
+.up {
+    margin-top:-3%;
 }
 
 
