@@ -60,16 +60,17 @@
     cursor: url('cursor_dreieck.cur'), auto;
 }
 
+
 /* ELANUS BANNER */
 .banner {
-    width: 99.55%;
+    width: 100%;
     border-radius: 0px;
     border-style: solid;
     border-width: 3px;
     border-color: #68D4F2;
     position: absolute;
     left: 0%;
-    bottom: 91.5%;
+    top: 3.5%;
     transition: all 0.7s ease-out;
     color: #ffffff;
     background: #68D4F2;
@@ -338,7 +339,7 @@ main div {
     resize:both;
     overflow: auto;
 }
-/*Soll der Inhaltbutton werden*/
+/*Inhaltbutton*/
 .inhalt {
     color:white;
     font-size:50%;
@@ -354,4 +355,38 @@ main div {
     background: rgba(0, 0, 0, 0.3);
     cursor: url('cursor_dreieck.cur'),auto;
 }
+.menu {
+    margin-left: 20px;
+}
+/*Menüliste oben*/
+ul {
+    list-style-type: none;
+    margin-top: -15px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+    position: relative;
+    top: 0px;
+    margin-left: -9px;
+    width: 100%
+}
+
+li {
+    float: left;
+}
+
+li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+         }
+li a:hover {
+        background-color: #68D4F2;
+        }
+li a.active {
+    background-color: #13bf56;
+}
+
 
