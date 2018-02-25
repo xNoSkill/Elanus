@@ -60,21 +60,23 @@
     cursor: url('cursor_dreieck.cur'), auto;
 }
 
+
 /* ELANUS BANNER */
 .banner {
-    width: 99.55%;
+    width: 100%;
     border-radius: 0px;
     border-style: solid;
     border-width: 3px;
     border-color: #68D4F2;
     position: absolute;
     left: 0%;
-    bottom: 91.5%;
+    top: 3.5%;
     transition: all 0.7s ease-out;
     color: #ffffff;
     background: #68D4F2;
     border-color: #68d4f2;
     font-family: Audiowide;
+    text-align:center;
 }
 .banner:hover {
     background: #51b9d5;
@@ -295,16 +297,17 @@ h2 {
 
 /* TEXT */
 .text {
-    left: 3%;
+    left: 2.5%;
     position: relative;
     transition: all .5s ease-in-out;
     color: rgba(255,255,255,0.1);
     text-shadow: 0 0 5px rgba(0,0,0,0.5);
     padding: 0.6%;
     text-shadow: 2px 2px 8px #333;
+    margin-top: 0%;
 }
 .text:hover {
-    margin: -1% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
     transform: scale(1.05);
     color:#FFF;
     width: 100%;
@@ -337,3 +340,58 @@ main div {
     resize:both;
     overflow: auto;
 }
+/*Inhaltbutton*/
+.inhalt {
+    color:white;
+    font-size:50%;
+    margin-top: -1%;
+}
+
+.textb {
+    margin: 0% 0% 0% 0%;
+    transform: scale(1.05);
+    color: #FFF;
+    width: 100%;
+    border-style: hidden;
+    background: rgba(0, 0, 0, 0.3);
+    cursor: url('cursor_dreieck.cur'),auto;
+}
+.menu {
+    margin-left: 20px;
+}
+/*Menüliste oben*/
+ul {
+    list-style-type: none;
+    margin-top: -15px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+    position: relative;
+    top: 0px;
+    margin-left: -9px;
+    width: 100%
+}
+
+li {
+    float: left;
+}
+
+li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+         }
+li a:hover {
+        background-color: #68D4F2;
+        }
+li a.active {
+    background-color: #13bf56;
+}
+
+.up {
+    margin-top:-3%;
+}
+
+
