@@ -76,6 +76,10 @@
     border-color: #68d4f2;
     font-family: Audiowide;
     text-align: center;
+<<<<<<< HEAD
+=======
+    cursor: url('cursor_dreieck.cur'),auto;
+>>>>>>> 7194e88f8e39d30a48bc62be17fd9ef66f3a45aa
 }
 
 .banner:hover {
@@ -392,8 +396,37 @@ li {
 
         li a.active {
             background-color: #13bf56;
+        cursor: url('cursor_dreieck.cur'),auto;
+    
+         }
+li a:hover {
+        background-color: #68D4F2;
         }
 
 .up {
     margin-top: -3%;
+}
+
+
+div.polaroid {
+    width: 17.53%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+   
+}
+
+div.container {
+    text-align: center;
+    padding: 5px 20px;
+    clear:both;
+   
+}
+
+div.gallery {
+    margin-top: 7%;
+    margin-left: 5%;
+    text-align: center;
+    color: black;
+    float:left;
 }
