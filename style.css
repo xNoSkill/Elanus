@@ -61,13 +61,13 @@
 
 /* ELANUS BANNER */
 .banner {
-    width: 99%;
+    width: 99.55%;
     border-radius: 0px;
     border-style: solid;
     border-width: 3px;
     border-color: #68D4F2;
     position: absolute;
-    left: 0.4%;
+    left: 0%;
     top: 3.5%;
     transition: all 0.7s ease-out;
     color: #ffffff;
