@@ -60,16 +60,15 @@
     cursor: url('cursor_dreieck.cur'), auto;
 }
 
-
 /* ELANUS BANNER */
 .banner {
-    width: 100%;
+    width: 99%;
     border-radius: 0px;
     border-style: solid;
     border-width: 3px;
     border-color: #68D4F2;
     position: absolute;
-    left: 0%;
+    left: 0.4%;
     top: 3.5%;
     transition: all 0.7s ease-out;
     color: #ffffff;
@@ -77,8 +76,12 @@
     border-color: #68d4f2;
     font-family: Audiowide;
     text-align: center;
+<<<<<<< HEAD
+=======
     cursor: url('cursor_dreieck.cur'),auto;
+>>>>>>> 7194e88f8e39d30a48bc62be17fd9ef66f3a45aa
 }
+
 .banner:hover {
     background: #51b9d5;
 }
@@ -298,17 +301,16 @@ h2 {
 
 /* TEXT */
 .text {
-    left: 2.5%;
+    left: 3%;
     position: relative;
     transition: all .5s ease-in-out;
     color: rgba(255,255,255,0.1);
     text-shadow: 0 0 5px rgba(0,0,0,0.5);
     padding: 0.6%;
     text-shadow: 2px 2px 8px #333;
-    margin-top: 0%;
 }
 .text:hover {
-    margin: 0% 0% 0% 0%;
+    margin: -1% 0% 0% 0%;
     transform: scale(1.05);
     color:#FFF;
     width: 100%;
@@ -341,11 +343,13 @@ main div {
     resize:both;
     overflow: auto;
 }
+
 /*Inhaltbutton*/
 .inhalt {
-    color:white;
-    font-size:50%;
+    color: white;
+    font-size: 50%;
     margin-top: -1%;
+    position:relative
 }
 
 .textb {
@@ -357,6 +361,7 @@ main div {
     background: rgba(0, 0, 0, 0.3);
     cursor: url('cursor_dreieck.cur'),auto;
 }
+
 .menu {
     margin-left: 20px;
 }
@@ -370,32 +375,38 @@ ul {
     position: relative;
     top: 0px;
     margin-left: -9px;
-    width: 100%
+    width: 100%;
+    cursor: url('cursor_dreieck.cur'),auto;
 }
 
 li {
     float: left;
 }
 
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        cursor: url('cursor_dreieck.cur'),auto;
-    
-         }
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #68D4F2;
+}
+
+li a.active {
+    background-color: #13bf56;
+    cursor: url('cursor_dreieck.cur'),auto;   
+}
 li a:hover {
         background-color: #68D4F2;
         }
-li a.active {
-    background-color: #13bf56;
-}
 
 .up {
-    margin-top:-3%;
+    margin-top: -3%;
 }
+
 
 div.polaroid {
     width: 17.53%;
@@ -419,8 +430,3 @@ div.gallery {
     color: black;
     float:left;
 }
-
-
-
-
-
