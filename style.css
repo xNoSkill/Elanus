@@ -61,13 +61,13 @@
 
 /* ELANUS BANNER */
 .banner {
-    width: 99%;
+    width: 99.55%;
     border-radius: 0px;
     border-style: solid;
     border-width: 3px;
     border-color: #68D4F2;
     position: absolute;
-    left: 0.4%;
+    left: 0%;
     top: 3.5%;
     transition: all 0.7s ease-out;
     color: #ffffff;
@@ -395,12 +395,10 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
-   display: block;
-   color: white;
-   text-align: center;
-   padding: 14px 16px;
-   text-decoration: none;
-   cursor: url('cursor_dreieck.cur'),auto
+
+   
+
+
 }
 
 li a:hover {
