@@ -384,11 +384,12 @@ li {
 }
 
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   cursor: url('cursor_dreieck.cur'),auto
 }
 
 li a:hover {
@@ -428,5 +429,5 @@ div.gallery {
     margin-left: 5%;
     text-align: center;
     color: black;
-    float:left;
+   float: left;
 }
