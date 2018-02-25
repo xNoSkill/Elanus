@@ -313,7 +313,6 @@ h2 {
     width: 100%;
     border-style:hidden;
     background: rgba(0, 0, 0, 0.3);
-    cursor: url('cursor_dreieck.cur'),auto; 
 }
 
 
@@ -368,6 +367,9 @@ main div {
 .menu {
     margin-left: 20px;
 }
+.menu:hover{
+    cursor: url('cursor_dreieck.cur'), auto;
+}
 /*Menüliste oben*/
 ul {
     list-style-type: none;
@@ -379,8 +381,8 @@ ul {
     top: 0px;
     margin-left: -9px;
     width: 100%;
-    cursor: url('cursor_dreieck.cur'),auto;
 }
+
 
 li {
     float: left;
@@ -392,10 +394,12 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: all 0.2s ease-in-out;
 }
 
 li a:hover {
     background-color: #68D4F2;
+    cursor: url('cursor_dreieck.cur'), auto;
 }
 
 li a.active {
