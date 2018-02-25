@@ -389,12 +389,21 @@ li {
 }
 
 li a {
+<<<<<<< HEAD
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
+=======
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   cursor: url('cursor_dreieck.cur'),auto
+>>>>>>> f338abe7509a8005e8bec2731d9b7a816eca2203
 }
 
 li a:hover {
@@ -435,5 +444,5 @@ div.gallery {
     margin-left: 5%;
     text-align: center;
     color: black;
-    float:left;
+   float: left;
 }
