@@ -423,7 +423,7 @@ div.polaroid {
     float: left;
     margin-top: 7%;
     margin-left: 5%;
-    padding-right: 0%;
+    
    
 }
 
@@ -442,5 +442,9 @@ div.polaroidc {
     margin-top: 7%;
     margin-left: 19%;
     padding-right: 0%;
+}
+body {
+    background: 3244234.jpg;
+    cursor: url('cursor.ani');
 }
 
