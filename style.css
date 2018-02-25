@@ -55,7 +55,6 @@
     transform: scale(1.05);
     margin: -10px 0px 0px 15px;
     border-style: hidden;
-    border-width: 0%;
     border-radius:4%; 
     cursor: url('cursor_dreieck.cur'), auto;
 }
@@ -76,10 +75,8 @@
     border-color: #68d4f2;
     font-family: Audiowide;
     text-align: center;
-<<<<<<< HEAD
-=======
     cursor: url('cursor_dreieck.cur'),auto;
->>>>>>> 7194e88f8e39d30a48bc62be17fd9ef66f3a45aa
+
 }
 
 .banner:hover {
@@ -349,7 +346,13 @@ main div {
     color: white;
     font-size: 50%;
     margin-top: -1%;
-    position:relative
+    position:relative;
+}
+.inhalt:hover {
+    border-style:solid;
+    border-color:aqua;
+   border-width:1px;
+   width:6.5%;
 }
 
 .textb {
