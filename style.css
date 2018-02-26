@@ -307,7 +307,7 @@ h2 {
     text-shadow: 2px 2px 8px #333;
 }
 .text:hover {
-    margin: -1% 0% 0% 0%;
+    margin: 1% 0% 0% 0%;
     transform: scale(1.05);
     color:#FFF;
     width: 100%;
@@ -321,10 +321,12 @@ main {
     background: white;
     height: 200px;
     width: 60%;
-    margin: 0 auto;
+    margin-top: 7%;
+    margin-left: 18%;
     padding: 20px;
     resize: both;
     overflow: auto;
+    
 }
 
 main div {
@@ -351,7 +353,7 @@ main div {
     border-style:solid;
     border-color:aqua;
    border-width:1px;
-   width:6.5%;
+   width:10%;
 }
 
 .textb {
@@ -416,25 +418,27 @@ li a:hover {
 
 
 div.polaroid {
-    width: 16.659%;
+    width: auto;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
     float: left;
     margin-top: 7%;
     margin-left: 5%;
-    
+    resize:vertical;
    
 }
 
 div.container {
     text-align: center;
-    padding: 5px 20px;  
+    padding: 5px 20px;
     color: black;
-
+    resize: vertical;
+    overflow:hidden;
+    width: auto;
 }
 div.polaroidc {
-    width: 16.659%;
+    width:auto;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
@@ -442,4 +446,15 @@ div.polaroidc {
     margin-top: 7%;
     margin-left: 19%;
     padding-right: 0%;
+}
+
+div.polaroid3 {
+    width: auto;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    float: right;
+    margin-top: 7%;
+    margin-right: 5%;
+    resize: vertical;
 }
