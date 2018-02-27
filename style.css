@@ -375,7 +375,7 @@ main div {
 /*Menüliste oben*/
 ul {
     list-style-type: none;
-    margin-top: -15px;
+    margin-top: -19px;
     padding: 0;
     overflow: hidden;
     background-color: #000;
@@ -435,7 +435,6 @@ div.container {
     color: black;
     resize: vertical;
     overflow:hidden;
-    width: auto;
 }
 div.polaroidc {
     width:auto;
@@ -453,7 +452,7 @@ div.polaroid3 {
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
-    float: right;
+    float: left;
     margin-top: 7%;
     margin-right: 5%;
     resize: vertical;
