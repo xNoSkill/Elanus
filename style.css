@@ -68,7 +68,7 @@
     border-color: #68D4F2;
     position: absolute;
     left: 0%;
-    top:4%;
+    top:3%;
     transition: all 0.7s ease-out;
     color: #ffffff;
     background: #68D4F2;
@@ -76,7 +76,6 @@
     font-family: Audiowide;
     text-align: center;
     cursor: url('cursor_dreieck.cur'),auto;
-
 }
 
 .banner:hover {
@@ -352,8 +351,8 @@ main div {
 .inhalt:hover {
     border-style:solid;
     border-color:aqua;
-   border-width:1px;
-   width:10%;
+    border-width:1px;
+    width:6.5%;
 }
 
 .textb {
@@ -380,6 +379,20 @@ main div {
     border-top-color:#fff;
     border-right-style:solid;
     border-top-style:solid;
+}
+
+li a:hover {
+    cursor: url('cursor_dreieck.cur'), auto;
+    border-top: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    border-left-color: #fff;
+    border-left-style: solid;
+    border-right-color: #fff;
+    border-top-color: #fff;
+    border-right-style: solid;
+    border-top-style: solid;
+    margin-bottom: -2%;
 }
 /*Menüliste oben*/
 ul {
@@ -446,22 +459,24 @@ div.container {
     overflow:hidden;
 }
 div.polaroidc {
-    width:auto;
+    height: auto;
+    max-width: 100%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
-    float: left;
+    float:left;
     margin-top: 7%;
-    margin-left: 19%;
-    padding-right: 0%;
+    margin-left: 19.5%;
+  
 }
 
 div.polaroid3 {
     width: auto;
+    height: auto;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
-    float: left;
+    float: right;
     margin-top: 7%;
     margin-right: 5%;
     resize: vertical;
