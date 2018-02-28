@@ -368,6 +368,7 @@ main div {
 
 .menu {
     margin-left: 20px;
+    margin-top:5px;
 }
 .menu:hover{
     cursor: url('cursor_dreieck.cur'), auto;
