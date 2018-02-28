@@ -68,7 +68,7 @@
     border-color: #68D4F2;
     position: absolute;
     left: 0%;
-    top:4.2%;
+    top:4%;
     transition: all 0.7s ease-out;
     color: #ffffff;
     background: #68D4F2;
@@ -303,7 +303,7 @@ h2 {
     transition: all .5s ease-in-out;
     color: rgba(255,255,255,0.1);
     text-shadow: 0 0 5px rgba(0,0,0,0.5);
-    padding: 0.6%;
+    padding: 1.3%;
     text-shadow: 2px 2px 8px #333;
 }
 .text:hover {
@@ -371,6 +371,15 @@ main div {
 }
 .menu:hover{
     cursor: url('cursor_dreieck.cur'), auto;
+    border-top:2px;
+    border-left:2px;
+    border-right:2px;
+    border-left-color:#fff;
+    border-left-style:solid;
+    border-right-color:#fff;
+    border-top-color:#fff;
+    border-right-style:solid;
+    border-top-style:solid;
 }
 /*Menüliste oben*/
 ul {
