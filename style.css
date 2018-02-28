@@ -82,6 +82,12 @@
     background: #51b9d5;
 }
 
+@media (max-width:768px) {
+    .banner {
+        top: 5%;
+    }
+}
+
 /* POPUP SETTINGS */
 .popup {
     position: unset;
