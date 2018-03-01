@@ -385,7 +385,7 @@ main div {
 
 .menu {
     margin-left: 20px;
-    padding: 16px 16px;
+    padding: 14px 16px;
 }
 .menu:hover{
     cursor: url('cursor_dreieck.cur'), auto;
@@ -501,4 +501,16 @@ div.polaroid3 {
     margin-top: 7%;
     margin-right: 5%;
     resize: vertical;
+}
+
+@media (max-width:1366px) {
+    div.polaroid {
+        margin-left:3%;
+    }
+    div.polaroidc {
+        margin-left: 11.5%;
+    }
+    div.polaroid3 {
+        margin-right:3%;
+    }
 }
