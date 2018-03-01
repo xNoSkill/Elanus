@@ -68,7 +68,7 @@
     border-color: #68D4F2;
     position: absolute;
     left: 0%;
-    top:3%;
+    top:4%;
     transition: all 0.7s ease-out;
     color: #ffffff;
     background: #68D4F2;
@@ -373,7 +373,7 @@ main div {
 
 .menu {
     margin-left: 20px;
-    padding: 14px 16px;
+    padding: 16px 16px;
 }
 .menu:hover{
     cursor: url('cursor_dreieck.cur'), auto;
@@ -386,6 +386,7 @@ main div {
     border-top-color:#fff;
     border-right-style:solid;
     border-top-style:solid;
+    position:relative;
 }
 
 li a:hover {
@@ -399,7 +400,7 @@ li a:hover {
     border-top-color: #fff;
     border-right-style: solid;
     border-top-style: solid;
-    margin-bottom: -2%;
+    margin-bottom: 0%;
 }
 /*Menüliste oben*/
 ul {
