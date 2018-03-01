@@ -12,11 +12,12 @@
     padding: 0px 0;
     position: absolute;
     overflow: hidden;
-    top: 24%;
+    top: 56%;
     left: 82.5%;
     width: 10%;
     height: 30%;
     transition: all 0.6s ease-in-out;
+    -webkit-filter: blur(3px);
 }
 .thumbnail1 > .wrap {
         background-repeat: no-repeat;
@@ -34,10 +35,21 @@
     transform: scale(1.2);
     margin: -10px 0px 0px 15px;
     cursor: url('cursor_dreieck.cur'), auto;
+    -webkit-filter:blur(0px);
 }
 
-/* THUMBNAIL2 FOR URSULA PICTURE */
 .thumbnail2 {
+    width: 9%;
+    height: 25%;
+    position: absolute;
+    top: 42%;
+    left: 87%;
+}
+.thumbnail2:hover {
+    cursor: url('cursor_dreieck.cur'), auto;
+}
+/* THUMBNAIL2 FOR URSULA PICTURE */
+.thumbnail3 {
     position: absolute;
     width: 22%;
     height:210px;
@@ -51,7 +63,7 @@
     left:70%;
     transition: all 0.6s ease-in-out;
 }
-.thumbnail2:hover {
+.thumbnail3:hover {
     transform: scale(1.05);
     margin: -10px 0px 0px 15px;
     border-style: hidden;
@@ -291,8 +303,8 @@ h2 {
 .sinnlos {
     color:#D38A8A;
     position: absolute;
-    top: 13%;
-    left: 73%;
+    top: 48%;
+    left: 68.5%;
     transition: all .2s ease-in;
 }
 .sinnlos:hover{
@@ -315,7 +327,7 @@ h2 {
     margin: 1% 0% 0% 0%;
     transform: scale(1.05);
     color:#FFF;
-    width: 100%;
+    width:auto;
     border-style:hidden;
     background: rgba(0, 0, 0, 0.3);
 }
