@@ -12,11 +12,12 @@
     padding: 0px 0;
     position: absolute;
     overflow: hidden;
-    top: 24%;
+    top: 56%;
     left: 82.5%;
     width: 10%;
     height: 30%;
-    transition: all 0.6s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-filter: blur(3px);
 }
 .thumbnail1 > .wrap {
         background-repeat: no-repeat;
@@ -34,10 +35,26 @@
     transform: scale(1.2);
     margin: -10px 0px 0px 15px;
     cursor: url('cursor_dreieck.cur'), auto;
+    -webkit-filter:blur(0px);
 }
 
-/* THUMBNAIL2 FOR URSULA PICTURE */
 .thumbnail2 {
+    width: 9%;
+    height: 25%;
+    position: absolute;
+    top: 42%;
+    left: 87%;
+    -webkit-filter:blur(3px);
+    transition:all .5s ease-in-out;
+}
+.thumbnail2:hover {
+    cursor: url('cursor_dreieck.cur'), auto;
+    -webkit-filter:blur(0px);
+    transform: scale(1);
+    margin: 0% 0% 0% 0%;
+}
+/* THUMBNAIL2 FOR URSULA PICTURE */
+.thumbnail3 {
     position: absolute;
     width: 22%;
     height:210px;
@@ -51,7 +68,7 @@
     left:70%;
     transition: all 0.6s ease-in-out;
 }
-.thumbnail2:hover {
+.thumbnail3:hover {
     transform: scale(1.05);
     margin: -10px 0px 0px 15px;
     border-style: hidden;
@@ -68,7 +85,7 @@
     border-color: #68D4F2;
     position: absolute;
     left: 0%;
-    top:3%;
+    top:4%;
     transition: all 0.7s ease-out;
     color: #ffffff;
     background: #68D4F2;
@@ -296,8 +313,8 @@ h2 {
 .sinnlos {
     color:#D38A8A;
     position: absolute;
-    top: 13%;
-    left: 73%;
+    top: 48%;
+    left: 68.5%;
     transition: all .2s ease-in;
 }
 .sinnlos:hover{
@@ -320,7 +337,7 @@ h2 {
     margin: 1% 0% 0% 0%;
     transform: scale(1.05);
     color:#FFF;
-    width: 100%;
+    width:auto;
     border-style:hidden;
     background: rgba(0, 0, 0, 0.3);
 }
@@ -358,12 +375,19 @@ main div {
     font-size: 50%;
     margin-top: -1%;
     position:relative;
+    width:10%;
 }
 .inhalt:hover {
     border-style:solid;
     border-color:aqua;
     border-width:1px;
     width:6.5%;
+}
+
+@media (max-width:1366px) {
+    .inhalt:hover {
+        width: 9%;
+    }
 }
 
 .textb {
@@ -379,6 +403,17 @@ main div {
 .menu {
     margin-left: 20px;
     padding: 14px 16px;
+    border-top: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    border-left-color: #fff;
+    border-left-style: solid;
+    border-right-color: #fff;
+    border-top-color: #fff;
+    border-right-style: solid;
+    border-top-style: solid;
+    margin-bottom: 0%;
+    background-color: #68D4F2;
 }
 .menu:hover{
     cursor: url('cursor_dreieck.cur'), auto;
@@ -386,13 +421,18 @@ main div {
     border-left:2px;
     border-right:2px;
     border-left-color:#fff;
-    border-left-style:solid;
+    border-left:solid;
     border-right-color:#fff;
     border-top-color:#fff;
-    border-right-style:solid;
+    border-right:solid;
     border-top-style:solid;
+    position:relative;
+    border-top:solid;
 }
-
+.tabulator {
+    margin-left: 20px;
+    padding: 14px 16px;
+}
 li a:hover {
     cursor: url('cursor_dreieck.cur'), auto;
     border-top: 2px;
@@ -404,7 +444,7 @@ li a:hover {
     border-top-color: #fff;
     border-right-style: solid;
     border-top-style: solid;
-    margin-bottom: -2%;
+    margin-bottom: 0%;
 }
 /*Menüliste oben*/
 ul {
@@ -419,7 +459,19 @@ ul {
     width: 100%;
 }
 
-
+.pageon {
+    border-top: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    border-left-color: #fff;
+    border-left-style: solid;
+    border-right-color: #fff;
+    border-top-color: #fff;
+    border-right-style: solid;
+    border-top-style: solid;
+    margin-bottom: 0%;
+    background-color:#68D4F2;
+}
 li {
     float: left;
 }
@@ -492,4 +544,16 @@ div.polaroid3 {
     margin-top: 7%;
     margin-right: 5%;
     resize: vertical;
+}
+
+@media (max-width:1366px) {
+    div.polaroid {
+        margin-left:3%;
+    }
+    div.polaroidc {
+        margin-left: 11.5%;
+    }
+    div.polaroid3 {
+        margin-right:3%;
+    }
 }
