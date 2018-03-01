@@ -373,7 +373,7 @@ main div {
 
 .menu {
     margin-left: 20px;
-    padding: 16px 16px;
+    padding: 300px 16px;
 }
 .menu:hover{
     cursor: url('cursor_dreieck.cur'), auto;
@@ -381,12 +381,13 @@ main div {
     border-left:2px;
     border-right:2px;
     border-left-color:#fff;
-    border-left-style:solid;
+    border-left:solid;
     border-right-color:#fff;
     border-top-color:#fff;
-    border-right-style:solid;
+    border-right:solid;
     border-top-style:solid;
     position:relative;
+    border-top:solid;
 }
 
 li a:hover {
