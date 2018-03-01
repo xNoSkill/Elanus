@@ -44,9 +44,14 @@
     position: absolute;
     top: 42%;
     left: 87%;
+    -webkit-filter:blur(3px);
+    transition:all .5s ease-in-out;
 }
 .thumbnail2:hover {
     cursor: url('cursor_dreieck.cur'), auto;
+    -webkit-filter:blur(0px);
+    transform: scale(1);
+    margin: 0% 0% 0% 0%;
 }
 /* THUMBNAIL2 FOR URSULA PICTURE */
 .thumbnail3 {
@@ -365,12 +370,19 @@ main div {
     font-size: 50%;
     margin-top: -1%;
     position:relative;
+    width:10%;
 }
 .inhalt:hover {
     border-style:solid;
     border-color:aqua;
     border-width:1px;
     width:6.5%;
+}
+
+@media (max-width:1366px) {
+    .inhalt:hover {
+        width: 9%;
+    }
 }
 
 .textb {
@@ -386,6 +398,17 @@ main div {
 .menu {
     margin-left: 20px;
     padding: 14px 16px;
+    border-top: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    border-left-color: #fff;
+    border-left-style: solid;
+    border-right-color: #fff;
+    border-top-color: #fff;
+    border-right-style: solid;
+    border-top-style: solid;
+    margin-bottom: 0%;
+    background-color: #68D4F2;
 }
 .menu:hover{
     cursor: url('cursor_dreieck.cur'), auto;
@@ -401,7 +424,10 @@ main div {
     position:relative;
     border-top:solid;
 }
-
+.tabulator {
+    margin-left: 20px;
+    padding: 14px 16px;
+}
 li a:hover {
     cursor: url('cursor_dreieck.cur'), auto;
     border-top: 2px;
@@ -428,7 +454,19 @@ ul {
     width: 100%;
 }
 
-
+.pageon {
+    border-top: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    border-left-color: #fff;
+    border-left-style: solid;
+    border-right-color: #fff;
+    border-top-color: #fff;
+    border-right-style: solid;
+    border-top-style: solid;
+    margin-bottom: 0%;
+    background-color:#68D4F2;
+}
 li {
     float: left;
 }
