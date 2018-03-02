@@ -413,7 +413,7 @@ main div {
     border-right-style: solid;
     border-top-style: solid;
     margin-bottom: 0%;
-    background-color:#757ECE;
+    background-color:#68D4F2;
 }
 .menu:hover{
     cursor: url('cursor_dreieck.cur'), auto;
@@ -470,7 +470,7 @@ ul {
     border-right-style: solid;
     border-top-style: solid;
     margin-bottom: 0%;
-    background-color:#757ECE;
+    background-color:#68D4F2;
 }
 li {
     float: left;
@@ -495,7 +495,7 @@ li a.active {
     cursor: url('cursor_dreieck.cur'),auto;   
 }
 li a:hover {
-        background-color: #68D4F2;
+        background-color: #8F97FF;
         }
 
 .up {
