@@ -104,6 +104,11 @@
         top: 5%;
     }
 }
+@media (max-width:1920px) {
+    .banner {
+        top: 3%;
+    }
+}
 
 /* POPUP SETTINGS */
 .popup {
