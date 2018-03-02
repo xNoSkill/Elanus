@@ -197,8 +197,8 @@
 
 /* THE SCOND POPUP */
 .popup2 {
-    margin: 10px auto;
-    padding: 7px;
+    margin: auto;
+    padding: 10px;
     background: #fff;
     border-radius: 10px;
     width: 40%;
@@ -209,6 +209,8 @@
     margin-top: 0;
     color: #333;
     font-family: Tahoma, Arial, sans-serif;
+    text-decoration:underline;
+    color:#1cd843;
 }
 .popup2 .close {
     position: absolute;
@@ -229,6 +231,7 @@
     overflow: auto;
     color:#000000;
     font-family: Doppio One;
+    padding:2%;
 }
 
 /* THE BODY */
