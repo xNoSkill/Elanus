@@ -401,6 +401,7 @@ h2 {
     border-top-style: solid;
     margin-bottom: 0%;
     background-color:#68D4F2;
+    transition: all .1s ease-in-out
 }
 .menu:hover{
     cursor: url('cursor_dreieck.cur'), auto;
@@ -469,7 +470,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.1s ease-in-out;
 }
 
 li a:hover {
