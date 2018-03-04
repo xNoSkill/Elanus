@@ -557,3 +557,10 @@ div.polaroid3 {
     color: black;
     left: 35%;
 }
+
+.figurein {
+    background-color: mediumaquamarine;
+    padding: 20px;
+    width: 42%;
+    margin-left: 28%;   
+}
