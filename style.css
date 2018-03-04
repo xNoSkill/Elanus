@@ -13,7 +13,7 @@
     position: absolute;
     overflow: hidden;
     top: 56%;
-    left: 82.5%;
+    right: 11%;
     width: 10%;
     height: 30%;
     transition: all .5s ease-in-out;
@@ -327,8 +327,8 @@ h2 {
 .sinnlos {
     color:#D38A8A;
     position: absolute;
-    top: 48%;
-    left: 68.5%;
+    top: 36%;
+    right: 7%;
     transition: all .2s ease-in;
 }
 .sinnlos:hover{
@@ -548,8 +548,11 @@ div.polaroid3 {
 .text_ursula {
     position: absolute; 
     margin: auto;
-    width: 80%;
+    width: 30%;
     border: 1px solid #68D4F2;
     padding: 1%;
-    top: 40%;
+    top: 20%;
+    background-color: white;
+    color: black;
+    left: 35%;
 }
