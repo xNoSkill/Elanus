@@ -310,18 +310,16 @@ h2 {
 
     .a {
         text-decoration: none;
+    }
+    @media screen and (max-width: 700px) {
+        .box {
+            width: 70%;
+        }
 
-        @media screen and (max-width: 700px) {
-            .box {
-                width: 70%;
-            }
-
-            .popup2 {
-                width: 70%;
-            }
+        .popup2 {
+            width: 70%;
         }
     }
-}
 
 /* CLASS FOR THE JOKE */
 .sinnlos {
