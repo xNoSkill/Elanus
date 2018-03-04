@@ -13,13 +13,16 @@
 </head>
 <body style="cursor: url('cursor.ani')" background="3244234.jpg">
 
-<ul onmouseover="PlaySound('mySound')">
-	<li><a href="index.html" class="tabulator" target="_top">Homepage</a></li>
-	<li><a href="allgemein.html" target="_top" class="pageon">Allgemeines zum Buch</a></li>
-	<li><a href="ursula.html">Informationen zur Autorin</a></li>
-	<li><a href="rezensionen.html">Rezensionen</a></li>
-	<li><a href="links.html">Links</a></li>
-</ul>
+	<ul onmouseover="PlaySound('mySound')">
+		<li><a href="index.html" class="tabulator" target="_top">Homepage</a></li>
+		<li><a href="allgemein.html" target="_top" class="pageon">Allgemeines zum Buch</a></li>
+		<li><a href="ursula.html">Informationen zur Autorin</a></li>
+		<li><a href="rezensionen.html">Rezensionen</a></li>
+		<li><a href="links.html">Links</a></li>
+	</ul>
+
+	<script src="javascript.js"></script>
+	<audio src="mousehover.wav" id='mySound'></audio>
 
 
 	<a style="text-decoration: none;font-size:250%;" href="https://xnoskill.github.io/Elanus/">
@@ -45,8 +48,8 @@
 	</map>
 
 
-	
-	
+
+
 	<map name="testmap">
 		<area shape="rect" coords="0,250,170,0" alt="Elanus_rofl_link"
 				href="https://goo.gl/aCHbUw">
@@ -77,18 +80,9 @@ ihr mit Elanus hinterher. Doch dabei findet er etwas heraus was lieber hätte ve
 		</u>
 	</h2>
 
-	<h3>
-		Hauptfiguren:
-	</h3>
-
-
-	
-		<div class="figurein">
-			<img src="figurenkonstellation.png" style="height:auto;" />
-		</div>
-
-
-
+	<div class="figurein">
+		<img src="figurenkonstellation.png" style="height:auto;border-radius:2%;" />
+	</div>
 
 	<div class="popup" align="left" onclick="myFunction()">
 		<p class="padding" onmouseover="PlaySound('mySound')">
@@ -116,7 +110,7 @@ ihr mit Elanus hinterher. Doch dabei findet er etwas heraus was lieber hätte ve
 	<script src="javascript.js"></script>
 	<audio src="mousehover.wav" id='mySound'></audio>
 
-	
+
 
 
 

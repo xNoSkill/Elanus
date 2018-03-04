@@ -545,21 +545,24 @@ div.polaroid3 {
     }
 }
 
-.text_ursula {
-    position: absolute; 
-    margin: auto;
-    width: 30%;
-    border: 1px solid #68D4F2;
+.text_ursula { 
+    position: absolute;
     padding: 1%;
     top: 20%;
     background-color: white;
     color: black;
-    left: 35%;
+    left:30%;
+    width: 40%;
 }
 
 .figurein {
     background-color: mediumaquamarine;
     padding: 20px;
     width: 42%;
-    margin-left: 28%;   
+    margin-left: 28%;  
+    border-radius: 2%;
+}
+
+img.ursula {
+    padding-right:1%;
 }
