@@ -310,19 +310,18 @@ h2 {
 
     .a {
         text-decoration: none;
+    }
 
-        @media screen and (max-width: 700px) {
-            .box {
-                width: 70%;
-            }
+    @media screen and (max-width: 700px) {
+        .box {
+            width: 70%;
+        }
 
-            .popup2 {
-                width: 70%;
-            }
+        .popup2 {
+            width: 70%;
         }
     }
 }
-
 /* CLASS FOR THE JOKE */
 .sinnlos {
     color:#D38A8A;
@@ -446,6 +445,36 @@ ul {
     margin-left: -9px;
     width: 100%;
 }
+@media (max-width:1368px){
+    ul  {
+        margin-top:-22px;
+    }
+}
+
+@media(max-width:1368px) {
+    .pageon{
+        margin-top:-2px;
+    }
+}
+@media(max-width:1368px){
+    .tabulator {
+        margin-top:-0px;
+    }
+}
+@media(max-width:1368px){
+    .menu {
+        margin-top:-2px;
+        margin: -1% 0% -0.01% 0%;
+    }
+}
+@media (max-width:1368px) {
+    li a:hover {
+        margin: -1% 0% -0.01% 0%;
+    }
+    .menu:hover{
+        margin: -1% 0% -0.01% 0%;
+    }
+}
 
 .pageon {
     border-top: 2px;
@@ -546,14 +575,35 @@ div.polaroid3 {
     }
 }
 
-.text_ursula {
-    position: absolute; 
-    margin: auto;
-    width: 30%;
-    border: 1px solid #68D4F2;
+.text_ursula { 
+    position: absolute;
     padding: 1%;
     top: 20%;
     background-color: white;
     color: black;
-    left: 35%;
+    left:30%;
+    width: 40%;
+}
+
+.figurenK {
+    padding: 20px;
+    width:auto;
+    margin-left: 28%;  
+    border-style:solid;
+    border-color:#68D4F2;
+    position:relative;
+    background:#4ac4e6;
+}
+@media (max-width:1386px) {
+    .figurenK {
+        width: 60%;
+        border-radius: 5%;
+        left: -25%;
+    }
+}
+.figurenK:hover{
+    cursor: url('cursor_dreieck.cur'), auto;
+}
+img.ursula {
+    padding-right:1%;
 }
