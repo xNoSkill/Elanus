@@ -199,7 +199,7 @@ div.popup {
     border-style: hidden;
     padding: 0.2%;
     background: #fff;
- 
+    
 }
 
 /* THE SCOND POPUP */
@@ -395,7 +395,7 @@ h2 {
 .menu {
     margin-left: 20px;
     padding: 14px 16px;
-    border-top: 2px;
+  
     border-left: 2px;
     border-right: 2px;
     border-left-color: #fff;
@@ -404,13 +404,13 @@ h2 {
     border-top-color: #fff;
     border-right-style: solid;
     border-top-style: solid;
-    margin-bottom: 0%;
+    margin-top:-2px;
     background-color:#68D4F2;
     transition: all .1s ease-in-out
 }
 .menu:hover{
     cursor: url('cursor_dreieck.cur'), auto;
-    border-top:2px;
+   
     border-left:2px;
     border-right:2px;
     border-left-color:#fff;
@@ -442,7 +442,7 @@ li a:hover {
 /*Menüliste oben*/
 ul {
     list-style-type: none;
-    margin-top: -19px;
+    margin-top: -18px;
     padding: 0;
     overflow: hidden;
     background-color: #000;
@@ -456,6 +456,7 @@ ul {
         margin-top:-22px;
     }
 }
+
 
 @media(max-width:1368px) {
     .pageon{
@@ -483,7 +484,7 @@ ul {
 }
 
 .pageon {
-    border-top: 2px;
+  
     border-left: 2px;
     border-right: 2px;
     border-left-color: #fff;
@@ -491,8 +492,7 @@ ul {
     border-right-color: #fff;
     border-top-color: #fff;
     border-right-style: solid;
-    border-top-style: solid;
-    margin-bottom: 0%;
+    
     background-color:#68D4F2;
 }
 li {
@@ -542,8 +542,9 @@ div.container {
     text-align: center;
     padding: 5px 20px;
     color: black;
-    resize: vertical;
+    
     overflow:hidden;
+   
 }
 div.polaroidc {
     height: auto;
