@@ -223,7 +223,7 @@ div.popup {
     position: absolute;
     top: 3%;
     right: 3%;
-    transition: all 10s ease-in-out;
+    transition: all 2.5s ease-in-out;
     font-size: 220%;
     font-weight: bold;
     text-decoration: none;
@@ -231,7 +231,7 @@ div.popup {
 }
 .popup2 .close:hover {
     color: #6BFF5E;
-    -webkit-transform: translate(3%, -3%) rotate(50180deg);
+    -webkit-transform: translate(3%, -3%) rotate(12465deg);
     cursor: url('cursor_dreieck.cur'), auto;
 }
 .popup2 .content {
