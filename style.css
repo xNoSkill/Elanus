@@ -120,14 +120,56 @@
     }
 }
 
-div.popup {
+div.popup  {
     position: absolute;
     left:51%;
     top: 65.5%;
 }
+div.popup3 {
+    position: absolute;
+    left: 50%;
+    top: 86.5%;
+}
+div.popup4 {
+    position: absolute;
+    left: 63%;
+    top: 65.3%;
+}
+div.popup5 {
+    position: absolute;
+    left: 61%;
+    top: 78.8%;
+}
+div.popup6 {
+    position: absolute;
+    left: 38%;
+    top: 79%;
+}
+div.popup7 {
+    position: absolute;
+    left: 35%;
+    top:65.5%;
+}
 
+div.popup8 {
+    position: absolute;
+    left: 39%;
+    top: 52%;
+}
+
+div.popup9 {
+    position: absolute;
+    left: 58%;
+    top: 51.5%;
+}
+
+div.popup10 {
+    position: absolute;
+    left: 50.5%;
+    top: 44.8%;
+}
 /* POPUP SETTINGS */
-.popup {
+.popup, .popup3, .popup4, .popup5, .popup6, .popup7, .popup8, .popup9, .popup10 {
     position: unset;
     display: inline-block;
     cursor: url('cursor_dreieck.cur'), auto;
@@ -143,7 +185,7 @@ div.popup {
 }
 
 /* THE ACTUAL POPUP */
-.popup .popuptext {
+.popup .popuptext, .popup3 .popuptext3, .popup4 .popuptext4, .popup5 .popuptext5, .popup6 .popuptext6, .popup7 .popuptext7, .popup8 .popuptext8, .popup9 .popuptext9, .popup10 .popuptext10 {
     visibility: hidden;
     width: auto;
     background-color: #8F97FF;
@@ -160,7 +202,7 @@ div.popup {
 }
 
 /* THE POPUP ARROW */
-.popup .popuptext::after {
+.popup .popuptext::after, .popup3 .popuptext3::after, .popup4 .popuptext4::after, .popup5 .popuptext5::after, .popup6 .popuptext6::after, .popup7 .popuptext7::after, .popup8 .popuptext8::after, .popup9 .popuptext9::after, .popup10 .popuptext10::after {
     content: "";
     position: absolute;
     top: 100%;
@@ -172,7 +214,7 @@ div.popup {
 }
 
 /* Toggle this class - hide and show the popup */
-.popup .show {
+.popup .show, .popup3 .show, .popup4 .show, .popup5 .show, .popup6 .show, .popup7 .show, .popup8 .show, .popup9 .show, .popup10 .show {
     visibility: visible;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 2s;
@@ -191,15 +233,12 @@ div.popup {
 
 /* POPUP ANIMATION WHEN HOVERED */
 
-.popup:hover {
-    transform: scale(0.95);
-    margin: 0.3% 0% 0.5% 0.3%;
+.popup:hover, .popup3:hover, .popup4:hover, .popup5:hover, .popup6:hover, .popup7:hover, .popup8:hover, .popup9:hover, .popup10:hover {
+    transform: scale(1);
     text-decoration: none;
     color: #000000;
     border-style: hidden;
-    padding: 0.2%;
-    background: #fff;
-    
+    z-index: 1;
 }
 
 /* THE SCOND POPUP */
