@@ -120,6 +120,12 @@
     }
 }
 
+div.popup {
+    position: absolute;
+    left:51%;
+    top: 65.5%;
+}
+
 /* POPUP SETTINGS */
 .popup {
     position: unset;
@@ -131,7 +137,7 @@
     user-select: none;
     transition: all .1s ease-in-out;
     font-size: 100%;
-    color:#68D4F2;
+    color: #68D4F2;
     left: 2%;
     padding: 1%;
 }
@@ -139,7 +145,7 @@
 /* THE ACTUAL POPUP */
 .popup .popuptext {
     visibility: hidden;
-    width: 900%;
+    width: auto;
     background-color: #8F97FF;
     color: #fff;
     text-align: center;
@@ -147,8 +153,8 @@
     padding: 20% 25%;
     position: absolute;
     z-index: 1;
-    bottom: 125%;
-    left: 50%;
+    bottom: 0%;
+    left: 40%;
     margin-left: -40px;
 
 }
@@ -159,7 +165,7 @@
     position: absolute;
     top: 100%;
     left: 35%;
-    margin-left: -32%;
+    margin-left: -20%;
     border-width: 10px;
     border-style: solid;
     border-color: #757ECE transparent transparent transparent;
@@ -185,6 +191,16 @@
 
 /* POPUP ANIMATION WHEN HOVERED */
 
+.popup:hover {
+    transform: scale(0.95);
+    margin: 0.3% 0% 0.5% 0.3%;
+    text-decoration: none;
+    color: #000000;
+    border-style: hidden;
+    padding: 0.2%;
+    background: #fff;
+    
+}
 
 /* THE SCOND POPUP */
 .popup2 {
@@ -379,7 +395,7 @@ h2 {
 .menu {
     margin-left: 20px;
     padding: 14px 16px;
-    border-top: 2px;
+  
     border-left: 2px;
     border-right: 2px;
     border-left-color: #fff;
@@ -388,13 +404,13 @@ h2 {
     border-top-color: #fff;
     border-right-style: solid;
     border-top-style: solid;
-    margin-bottom: 0%;
+    margin-top:-2px;
     background-color:#68D4F2;
     transition: all .1s ease-in-out
 }
 .menu:hover{
     cursor: url('cursor_dreieck.cur'), auto;
-    border-top:2px;
+   
     border-left:2px;
     border-right:2px;
     border-left-color:#fff;
@@ -426,7 +442,7 @@ li a:hover {
 /*Menüliste oben*/
 ul {
     list-style-type: none;
-    margin-top: -19px;
+    margin-top: -18px;
     padding: 0;
     overflow: hidden;
     background-color: #000;
@@ -440,6 +456,7 @@ ul {
         margin-top:-22px;
     }
 }
+
 
 @media(max-width:1368px) {
     .pageon{
@@ -467,7 +484,7 @@ ul {
 }
 
 .pageon {
-    border-top: 2px;
+  
     border-left: 2px;
     border-right: 2px;
     border-left-color: #fff;
@@ -475,8 +492,7 @@ ul {
     border-right-color: #fff;
     border-top-color: #fff;
     border-right-style: solid;
-    border-top-style: solid;
-    margin-bottom: 0%;
+    
     background-color:#68D4F2;
 }
 li {
@@ -526,8 +542,9 @@ div.container {
     text-align: center;
     padding: 5px 20px;
     color: black;
-    resize: vertical;
+    
     overflow:hidden;
+   
 }
 div.polaroidc {
     height: auto;
@@ -577,12 +594,13 @@ div.polaroid3 {
 
 .figurenK {
     padding: 20px;
-    width:auto;
+    width:42%;
     margin-left: 28%;  
     border-style:solid;
     border-color:#68D4F2;
     position:relative;
     background:#4ac4e6;
+    border-radius: 2%;
 }
 @media (max-width:1386px) {
     .figurenK {
