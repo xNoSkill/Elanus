@@ -19,6 +19,17 @@
     transition: all .5s ease-in-out;
     -webkit-filter: blur(3px);
 }
+@media (max-width:1368px) {
+    .thumbnail1 {
+        right: 10%;
+        top: 59%;
+    }
+}
+@media (max-width:1368px) {
+    .thumbnail2 {
+        top: 46%;
+    }
+}
 .thumbnail1 > .wrap {
         background-repeat: no-repeat;
         background-size: cover;
@@ -117,6 +128,11 @@
 @media (max-width:1920px) {
     .banner {
         top: 3%;
+    }
+}
+@media (max-width:1368px) {
+    .banner {
+        top: 4%;
     }
 }
 
@@ -466,6 +482,13 @@ h2 {
     margin-left: 20px;
     padding: 14px 16px;
 }
+ @media (max-width:1368px) {
+     .tabulator:hover {
+         margin-left:20px;
+     }
+ }
+
+
 li a:hover {
     cursor: url('cursor_dreieck.cur'), auto;
     border-top: 2px;
@@ -500,18 +523,20 @@ ul {
 
 @media(max-width:1368px) {
     .pageon{
-        margin-top:-2px;
+      
     }
 }
 @media(max-width:1368px){
     .tabulator {
-        margin-top:-0px;
+        
+        margin-left:20px;
     }
 }
 @media(max-width:1368px){
     .menu {
         margin-top:-2px;
         margin: -1% 0% -0.01% 0%;
+        margin-left:20px;
     }
 }
 @media (max-width:1368px) {
@@ -519,7 +544,7 @@ ul {
         margin: -1% 0% -0.01% 0%;
     }
     .menu:hover{
-        margin: -1% 0% -0.01% 0%;
+       margin: 0% 0% 0% 20px;
     }
 }
 
@@ -597,6 +622,11 @@ div.cbuecher {
     z-index: 2;
     
 }
+@media (max-width:1368px) {
+    div.cbuecher {
+        width: 10%;
+    }
+}
 .containeru {
     text-align:center;
     padding:  1px;
@@ -653,7 +683,12 @@ div.polaroid3 {
     left:30%;
     width: 40%;
 }
-
+@media (max-width:1368px) {
+    .text_ursula {
+        width:60%;
+        left:20%;
+    }
+}
 .figurenK {
     padding: 20px;
     width:42%;
@@ -666,9 +701,9 @@ div.polaroid3 {
 }
 @media (max-width:1386px) {
     .figurenK {
-        width: 60%;
-        border-radius: 5%;
-        left: -25%;
+        width: 59%;
+        border-radius: 2%;
+        left: -16%;
     }
 }
 .figurenK:hover{
@@ -706,5 +741,14 @@ img.ursula {
     transition: 0.3s ease-in;
 }
 .cover:hover {
-   transform: scale(1.2);
+   transform: scale(1.08);
+}
+@media (max-width:1368px) {
+    .cover {
+        width: 50%;
+        height:auto;
+        position: absolute;
+        left: 26%;
+        top: 30%;
+    }
 }
