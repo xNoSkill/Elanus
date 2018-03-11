@@ -572,9 +572,10 @@ div.polaroid {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
     float: left;
-    margin-top: 7%;
+    margin-top: 8%;
     margin-left: 5%;
-    resize:vertical;
+    position:relative;
+    top:1%;
    
 }
 
@@ -609,7 +610,7 @@ div.polaroidc {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
     float:left;
-    margin-top: 7%;
+    margin-top: 8%;
     margin-left: 19.5%;
   
 }
@@ -621,7 +622,7 @@ div.polaroid3 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
     float: right;
-    margin-top: 7%;
+    margin-top: 8%;
     margin-right: 5%;
     resize: vertical;
 }
