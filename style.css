@@ -581,10 +581,26 @@ div.container {
     text-align: center;
     padding: 5px 20px;
     color: black;
-    
     overflow:hidden;
-   
 }
+div.cbuecher {
+    background-color: white;
+    margin-bottom: 25px;
+    margin-top: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float:inherit;
+    width:12%;
+    text-decoration:none;
+    color: black;
+}
+.containeru {
+    text-align:center;
+    padding:  1px;
+    color:black;
+    text-decoration: none;
+}
+
+
 div.polaroidc {
     height: auto;
     max-width: 100%;
@@ -609,7 +625,7 @@ div.polaroid3 {
     resize: vertical;
 }
 
-@media (max-width:1366px) {
+@media (max-width:1368  px) {
     div.polaroid {
         margin-left:3%;
     }
@@ -653,4 +669,7 @@ div.polaroid3 {
 }
 img.ursula {
     padding-right:1%;
+}
+.a {
+    text-decoration:none;
 }
