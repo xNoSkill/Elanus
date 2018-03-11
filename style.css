@@ -687,3 +687,24 @@ img.ursula {
     margin-top: 2%;
     margin-left: 1%;
 }
+
+.menureiter1 ,menureiter2 ,menureiter3 ,menureiter4 {
+    border-style:solid;
+    border-color:#fff;
+    position:relative;
+}
+.menureiter1:hover, .menureiter2:hover, .menureiter3:hover, .menureiter4:hover {
+    border-background: #fff;
+    border-color:#68D4F2
+}
+.cover {
+    margin: 0 auto;
+    width:90%;
+    height:80%;
+    position:absolute;
+    top:50%;
+    transition: 0.3s ease-in;
+}
+.cover:hover {
+   transform: scale(1.2);
+}
