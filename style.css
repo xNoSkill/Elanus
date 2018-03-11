@@ -604,7 +604,9 @@ div.cbuecher {
     text-decoration: none;
     
 }
-
+div.cbuecher:hover {
+    border: 1px solid #3b3b3b;
+}
 
 div.polaroidc {
     height: auto;
