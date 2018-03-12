@@ -250,25 +250,12 @@ div.popup10 {
 
 /* POPUP ANIMATION WHEN HOVERED */
 
-<<<<<<< HEAD
-.popup:hover {
-    transform: scale(1);
-    
-    text-decoration: none;
-    color: #000000;
-    border-style: hidden;
-    
-    background: #fff;
-    z-index:1;
-    
-=======
 .popup:hover, .popup3:hover, .popup4:hover, .popup5:hover, .popup6:hover, .popup7:hover, .popup8:hover, .popup9:hover, .popup10:hover {
     transform: scale(1);
     text-decoration: none;
     color: #000000;
     border-style: hidden;
     z-index: 1;
->>>>>>> 5c2fd6950edf8c70fb2b8966eba0e2dcd3a70a46
 }
 
 /* THE SCOND POPUP */
@@ -617,15 +604,11 @@ div.polaroid {
    
 }
 
-.container {
+div.container {
     text-align: center;
     padding: 5px 20px;
     color: black;
-<<<<<<< HEAD
-   
-=======
     overflow:hidden;
->>>>>>> 5c2fd6950edf8c70fb2b8966eba0e2dcd3a70a46
 }
 div.cbuecher {
     background-color: white;
