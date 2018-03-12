@@ -22,14 +22,10 @@
 @media (max-width:1368px) {
     .thumbnail1 {
         right: 10%;
-        top: 59%;
+        top: 63%;
     }
 }
-@media (max-width:1368px) {
-    .thumbnail2 {
-        top: 46%;
-    }
-}
+
 .thumbnail1 > .wrap {
         background-repeat: no-repeat;
         background-size: cover;
@@ -62,6 +58,11 @@
     -o-filter: blur(3px);
     -ms-filter: blur(3px);
     transition: all .5s ease-in-out;
+}
+@media (max-width:1368px) {
+    .thumbnail2 {
+        top: 53%;
+    }
 }
 .thumbnail2:hover {
     cursor: url('cursor_dreieck.cur'), auto;
@@ -185,6 +186,45 @@ div.popup10 {
     left: 50.5%;
     top: 44.8%;
 }
+@media (max-width:1368px) {
+    div.popup {
+        left: 43%;
+        top: 99.4%;
+    }
+    div.popup3 {
+        left:43%;
+        top:131%;
+    }
+    div.popup4 {
+        left: 63%;
+        top:100%;
+    }
+    div.popup5 {
+        left:59%;
+        top:119.6%;
+    }
+    div.popup6 {
+        top:120%;
+        left:26%;
+    }
+    div.popup7 {
+        top:99.7%;
+        left: 22%;
+    }
+    div.popup8 {
+        top: 80%;
+        left: 27%;
+    }
+    div.popup9 {
+        top: 79%;
+        left: 55%;
+    }
+    div.popup10 {
+        top: 69.5%;
+        left: 45%;
+    }
+}
+
 /* POPUP SETTINGS */
 .popup, .popup3, .popup4, .popup5, .popup6, .popup7, .popup8, .popup9, .popup10 {
     position: unset;
@@ -397,6 +437,11 @@ h2 {
     transform: scale(0.93);
     margin: 0.05% 0% 0% 0.05%;
 }
+@media(max-width:1368px) {
+    .sinnlos {
+        top: 44%;
+    }
+}
 
 /* TEXT */
 .text {
@@ -516,7 +561,7 @@ ul {
 }
 @media (max-width:1368px){
     ul  {
-        margin-top:-22px;
+        margin-top:-21px;
     }
 }
 
@@ -622,10 +667,14 @@ div.cbuecher {
     z-index: 2;
     
 }
+ 
+
+
 @media (max-width:1368px) {
     div.cbuecher {
         width: 10%;
     }
+    
 }
 .containeru {
     text-align:center;
@@ -662,7 +711,7 @@ div.polaroid3 {
     resize: vertical;
 }
 
-@media (max-width:1368  px) {
+@media (max-width:1368px) {
     div.polaroid {
         margin-left:3%;
     }
