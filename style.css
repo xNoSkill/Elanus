@@ -373,7 +373,29 @@ h2 {
 }
 
 /* I DONT KNOW WHAT THIS IS FOR*/
+@media screen and (max-width: 700px) {
+    .box {
+        width: 70%;
+    }
 
+    .popup2 {
+        width: 70%;
+    }
+
+    .a {
+        text-decoration: none;
+    }
+
+    @media screen and (max-width: 700px) {
+        .box {
+            width: 70%;
+        }
+
+        .popup2 {
+            width: 70%;
+        }
+    }
+}
 /* CLASS FOR THE JOKE */
 .sinnlos {
     color:#D38A8A;
@@ -504,24 +526,21 @@ ul {
     margin-left: -9px;
     width: 100%;
 }
-@media (max-width:1368px){
-    ul  {
-        margin-top:-22px;
-    }
-}
 
 
 @media(max-width:1368px) {
-    .pageon{
-      
+    .pageon {
+    border-left: 2px;
+    border-right: 2px;
+    border-left-color: #fff;
+    border-left-style: solid;
+    border-right-color: #fff;
+    border-top-color: #fff;
+    border-right-style: solid;   
+    background-color:#68D4F2;
     }
 }
-@media(max-width:1368px){
-    .tabulator {
-        
-        margin-left:20px;
-    }
-}
+
 @media(max-width:1368px){
     .menu {
         margin-top:-2px;
@@ -546,8 +565,7 @@ ul {
     border-left-style: solid;
     border-right-color: #fff;
     border-top-color: #fff;
-    border-right-style: solid;
-    
+    border-right-style: solid;   
     background-color:#68D4F2;
 }
 li {
@@ -594,7 +612,7 @@ div.polaroid {
    
 }
 
-div.container {
+.container {
     text-align: center;
     padding: 5px 20px;
     color: black;
@@ -712,16 +730,12 @@ img.ursula {
     margin-top: 2%;
     margin-left: 1%;
 }
+@media (max-width:1368px) {
+    .linkbild {
+        width:1%;
+    }
+}
 
-.menureiter1, .menureiter2 , .menureiter3 , .menureiter4 {
-    border-style:solid;
-    border-color:#fff;
-    position:relative;
-}
-.menureiter1:hover, .menureiter2:hover, .menureiter3:hover, .menureiter4:hover {
-    background: #fff;
-    border-color:#68D4F2;
-}
 .cover {
     position:absolute;
     transition: 0.3s ease-in;
@@ -735,7 +749,7 @@ img.ursula {
 }
 @media (max-width:1368px) {
     .cover {
-        width: 50%;
+        width: 20%;
         height:auto;
         position: absolute;
         left: 26%;
