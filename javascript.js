@@ -3,6 +3,10 @@ function myFunction() {
     var popup = document.getElementById("myPopup");
     popup.classList.toggle("show");
 }
+
+function myFunctiontwo() {
+    var popup = document.getElementById("popupzwei");
+    popup.classList.toggle("show");
 // When the user clicks on div, open the popup
 function myFunctionthree() {
     var popup3 = document.getElementById("popupthree");
