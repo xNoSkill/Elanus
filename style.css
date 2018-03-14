@@ -19,6 +19,13 @@
     transition: all .5s ease-in-out;
     -webkit-filter: blur(3px);
 }
+@media (max-width:1368px) {
+    .thumbnail1 {
+        right: 10%;
+        top: 63%;
+    }
+}
+
 .thumbnail1 > .wrap {
         background-repeat: no-repeat;
         background-size: cover;
@@ -51,6 +58,11 @@
     -o-filter: blur(3px);
     -ms-filter: blur(3px);
     transition: all .5s ease-in-out;
+}
+@media (max-width:1368px) {
+    .thumbnail2 {
+        top: 53%;
+    }
 }
 .thumbnail2:hover {
     cursor: url('cursor_dreieck.cur'), auto;
@@ -119,6 +131,11 @@
         top: 3%;
     }
 }
+@media (max-width:1368px) {
+    .banner {
+        top: 4%;
+    }
+}
 
 div.popup  {
     position: absolute;
@@ -169,6 +186,45 @@ div.popup10 {
     left: 50.5%;
     top: 44.8%;
 }
+@media (max-width:1368px) {
+    div.popup {
+        left: 43%;
+        top: 108%;
+    }
+    div.popup3 {
+        left:43%;
+        top:141%;
+    }
+    div.popup4 {
+        left: 63%;
+        top:107.5%;
+    }
+    div.popup5 {
+        left:59%;
+        top:129.5%;
+    }
+    div.popup6 {
+        top:129.6%;
+        left:26%;
+    }
+    div.popup7 {
+        top:108.3%;
+        left: 22%;
+    }
+    div.popup8 {
+        top: 80%;
+        left: 27%;
+    }
+    div.popup9 {
+        top: 79%;
+        left: 55%;
+    }
+    div.popup10 {
+        top: 69.5%;
+        left: 45%;
+    }
+}
+
 /* POPUP SETTINGS */
 .popup, .popup3, .popup4, .popup5, .popup6, .popup7, .popup8, .popup9, .popup10 {
     position: unset;
@@ -381,6 +437,11 @@ h2 {
     transform: scale(0.93);
     margin: 0.05% 0% 0% 0.05%;
 }
+@media(max-width:1368px) {
+    .sinnlos {
+        top: 44%;
+    }
+}
 
 /* TEXT */
 .text {
@@ -466,6 +527,13 @@ h2 {
     margin-left: 20px;
     padding: 14px 16px;
 }
+ @media (max-width:1368px) {
+     .tabulator:hover {
+         margin-left:20px;
+     }
+ }
+
+
 li a:hover {
     cursor: url('cursor_dreieck.cur'), auto;
     border-top: 2px;
@@ -493,25 +561,27 @@ ul {
 }
 @media (max-width:1368px){
     ul  {
-        margin-top:-22px;
+        margin-top:-21px;
     }
 }
 
 
 @media(max-width:1368px) {
     .pageon{
-        margin-top:-2px;
+      
     }
 }
 @media(max-width:1368px){
     .tabulator {
-        margin-top:-0px;
+        
+        margin-left:20px;
     }
 }
 @media(max-width:1368px){
     .menu {
         margin-top:-2px;
         margin: -1% 0% -0.01% 0%;
+        margin-left:20px;
     }
 }
 @media (max-width:1368px) {
@@ -519,7 +589,7 @@ ul {
         margin: -1% 0% -0.01% 0%;
     }
     .menu:hover{
-        margin: -1% 0% -0.01% 0%;
+       margin: 0% 0% 0% 20px;
     }
 }
 
@@ -597,6 +667,15 @@ div.cbuecher {
     z-index: 2;
     
 }
+ 
+
+
+@media (max-width:1368px) {
+    div.cbuecher {
+        width: 10%;
+    }
+    
+}
 .containeru {
     text-align:center;
     padding:  1px;
@@ -632,7 +711,7 @@ div.polaroid3 {
     resize: vertical;
 }
 
-@media (max-width:1368  px) {
+@media (max-width:1368px) {
     div.polaroid {
         margin-left:3%;
     }
@@ -653,7 +732,12 @@ div.polaroid3 {
     left:30%;
     width: 40%;
 }
-
+@media (max-width:1368px) {
+    .text_ursula {
+        width:60%;
+        left:20%;
+    }
+}
 .figurenK {
     padding: 20px;
     width:42%;
@@ -666,9 +750,9 @@ div.polaroid3 {
 }
 @media (max-width:1386px) {
     .figurenK {
-        width: 60%;
-        border-radius: 5%;
-        left: -25%;
+        width: 59%;
+        border-radius: 2%;
+        left: -16%;
     }
 }
 .figurenK:hover{
@@ -706,5 +790,14 @@ img.ursula {
     transition: 0.3s ease-in;
 }
 .cover:hover {
-   transform: scale(1.2);
+   transform: scale(1.08);
+}
+@media (max-width:1368px) {
+    .cover {
+        width: 50%;
+        height:auto;
+        position: absolute;
+        left: 26%;
+        top: 30%;
+    }
 }
