@@ -189,38 +189,38 @@ div.popup10 {
 @media (max-width:1368px) {
     div.popup {
         left: 43%;
-        top: 108%;
+        top: 104%;
     }
     div.popup3 {
         left:43%;
-        top:141%;
+        top:137%;
     }
     div.popup4 {
         left: 63%;
-        top:107.5%;
+        top:103.5%;
     }
     div.popup5 {
         left:59%;
-        top:129.5%;
+        top:125.5%;
     }
     div.popup6 {
-        top:129.6%;
+        top:125.6%;
         left:26%;
     }
     div.popup7 {
-        top:108.3%;
+        top:104.3%;
         left: 22%;
     }
     div.popup8 {
-        top: 80%;
+        top: 84%;
         left: 27%;
     }
     div.popup9 {
-        top: 79%;
+        top: 83%;
         left: 55%;
     }
     div.popup10 {
-        top: 69.5%;
+        top: 73.5%;
         left: 45%;
     }
 }
@@ -750,7 +750,7 @@ div.polaroid3 {
 }
 @media (max-width:1386px) {
     .figurenK {
-        width: 59%;
+        width: 61%;
         border-radius: 2%;
         left: -16%;
     }
